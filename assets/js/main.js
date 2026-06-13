@@ -62,7 +62,7 @@ function applyI18n() {
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
   document.getElementById('lang-btn').textContent = t('lang_switch');
   document.getElementById('canvas-hint').textContent = lang === 'zh'
-    ? '🖱 拖拽旋转 · 滚轮缩放 · 点击球队' : '🖱 Drag · Scroll zoom · Click team';
+    ? '🖱 拖拽旋转 · 滚轮缩放 · 点击球队 · 金线=今日赛事' : '🖱 Drag · Scroll zoom · Click team · Gold arc = today\'s match';
 }
 
 // ── State ──────────────────────────────────────────────────────────────────
@@ -192,12 +192,19 @@ function initGlobe() {
   scene.add(new THREE.Mesh(new THREE.SphereGeometry(1.03,64,64),
     new THREE.MeshPhongMaterial({color:0x0088ff,transparent:true,opacity:0.07})));
 
-  // Load earth texture
+  // Load earth texture — try multiple CDNs
   const tl = new THREE.TextureLoader();
-  tl.load('https://raw.githubusercontent.com/turban/webgl-earth/master/images/2_no_clouds_4k.jpg',
-    tex=>{earthMat.map=tex;earthMat.needsUpdate=true;},undefined,
-    ()=>tl.load('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Land_ocean_ice_2048.jpg/2048px-Land_ocean_ice_2048.jpg',
-      tex=>{earthMat.map=tex;earthMat.needsUpdate=true;}));
+  const earthTexUrls = [
+    'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-blue-marble.jpg',
+    'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Land_ocean_ice_2048.jpg/2048px-Land_ocean_ice_2048.jpg',
+  ];
+  function tryLoadTex(urls, idx=0){
+    if(idx>=urls.length) return;
+    tl.load(urls[idx], tex=>{earthMat.map=tex;earthMat.color.set(0xffffff);earthMat.needsUpdate=true;},
+      undefined, ()=>tryLoadTex(urls, idx+1));
+  }
+  tryLoadTex(earthTexUrls);
 
   // Graticule
   const gMat = new THREE.LineBasicMaterial({color:0x1a3d66,opacity:0.3,transparent:true});
@@ -245,6 +252,48 @@ function initGlobe() {
     });
   });
 
+  // ── Today's match arcs ────────────────────────────────────────────────────
+  const todayArcs = [];
+  const todayMatchIds = [];
+  const now = new Date();
+  const todayStr = now.toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
+
+  function latLonToVec(lat, lon, r=1.02){
+    const phi=(90-lat)*Math.PI/180, theta=(lon+180)*Math.PI/180;
+    return new THREE.Vector3(Math.sin(phi)*Math.cos(theta)*r, Math.cos(phi)*r, Math.sin(phi)*Math.sin(theta)*r);
+  }
+  function makeArc(p1, p2, color){
+    const mid=p1.clone().add(p2).multiplyScalar(0.5);
+    const lift=1+0.35*(1-mid.length());
+    mid.normalize().multiplyScalar(lift+0.2);
+    const pts=[];
+    for(let t=0;t<=1;t+=0.02){
+      const a=p1.clone().multiplyScalar((1-t)*(1-t));
+      const b=mid.clone().multiplyScalar(2*t*(1-t));
+      const c=p2.clone().multiplyScalar(t*t);
+      pts.push(a.add(b).add(c));
+    }
+    const geo=new THREE.BufferGeometry().setFromPoints(pts);
+    const mat=new THREE.LineBasicMaterial({color,opacity:0.7,transparent:true,linewidth:1});
+    return new THREE.Line(geo,mat);
+  }
+
+  S.recentMatches.forEach(m=>{
+    const mDate=new Date(m.start_time).toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
+    if(mDate!==todayStr) return;
+    const hCmp=m.competitors.find(c=>c.qualifier==='home');
+    const aCmp=m.competitors.find(c=>c.qualifier==='away');
+    if(!hCmp||!aCmp) return;
+    const hPos=coords[hCmp.team.abbreviation];
+    const aPos=coords[aCmp.team.abbreviation];
+    if(!hPos||!aPos) return;
+    const arc=makeArc(latLonToVec(...hPos), latLonToVec(...aPos), 0xffd700);
+    arc.userData={matchId:m.id,isArc:true};
+    scene.add(arc);
+    todayArcs.push(arc);
+    todayMatchIds.push(m.id);
+  });
+
   // Interaction
   const ray=new THREE.Raycaster(), mouse=new THREE.Vector2();
   let hoveredAbbr=null;
@@ -253,18 +302,20 @@ function initGlobe() {
   canvas.addEventListener('mousemove',e=>{
     setMouse(e,canvas,mouse); ray.setFromCamera(mouse,camera);
     const hits=ray.intersectObjects(markerMeshes);
+    const arcHits=ray.intersectObjects(todayArcs,false);
     if(hits.length){
       const d=hits[0].object.userData;
       canvas.style.cursor='pointer';
       if(d.abbr!==hoveredAbbr){
         hoveredAbbr=d.abbr;
-        // Only update hover card if nothing is pinned, or we're hovering the pinned one
         if(!pinnedAbbr || d.abbr===pinnedAbbr) showHoverCard(d);
       }
+    } else if(arcHits.length){
+      canvas.style.cursor='pointer';
+      hoveredAbbr=null;
     } else {
       canvas.style.cursor='grab';
       hoveredAbbr=null;
-      // Only hide hover card if nothing is pinned
       if(!pinnedAbbr){
         document.getElementById('globe-hover-card').classList.remove('show');
       }
@@ -278,11 +329,22 @@ function initGlobe() {
       const d=hits[0].object.userData;
       pinnedAbbr=d.abbr;
       controls.autoRotate=false;
-      showHoverCard(d); // keep hover card visible after click too
+      showHoverCard(d);
       showGlobeTeamDetail(d);
-      // Switch to globe panel if not active
       activateView('globe');
       setTimeout(()=>{controls.autoRotate=true;},6000);
+      return;
+    }
+    // Click on arc → jump to matches tab
+    const arcHits=ray.intersectObjects(todayArcs,false);
+    if(arcHits.length){
+      const mid=arcHits[0].object;
+      if(mid.userData.matchId){
+        activateView('matches');
+        setTimeout(()=>openMatchModal(mid.userData.matchId),150);
+      } else {
+        activateView('matches');
+      }
     }
   });
 
@@ -299,6 +361,9 @@ function initGlobe() {
       const s=1+0.2*Math.sin(tick+i*0.6);
       ring.scale.setScalar(s);
       ring.material.opacity=0.2+0.22*Math.sin(tick+i*0.6);
+    });
+    todayArcs.forEach((arc,i)=>{
+      arc.material.opacity=0.4+0.35*Math.sin(tick*1.5+i*1.1);
     });
     controls.update();
     renderer.render(scene,camera);
@@ -888,7 +953,7 @@ function renderGlobeIntro(){
   const hint=document.getElementById('ghc-hint');
   if(hint) hint.textContent=lang==='zh'?'点击查看详情 →':'Click for details →';
   const canvasHint=document.getElementById('canvas-hint');
-  if(canvasHint) canvasHint.textContent=lang==='zh'?'🖱 拖拽旋转 · 滚轮缩放 · 点击球队':'🖱 Drag · Scroll zoom · Click team';
+  if(canvasHint) canvasHint.textContent=lang==='zh'?'🖱 拖拽旋转 · 滚轮缩放 · 点击球队 · 金线=今日赛事':'🖱 Drag · Scroll zoom · Click team · Gold arc = today\'s match';
 }
 
 // ── Team coords ────────────────────────────────────────────────────────────
