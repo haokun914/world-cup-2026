@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T21:16:11.900290+00:00",
+  "updated_at": "2026-06-13T22:36:18.632336+00:00",
   "events": [
     {
       "id": "760415",
@@ -258,7 +258,7 @@
     },
     {
       "id": "760419",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-06-13T22:00Z",
       "matchday": null,
       "round": "",
@@ -297,42 +297,42 @@
             "abbreviation": "MAR"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 1
         }
       ],
       "scores": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BRA -155",
+        "details": "BRA -150",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-155",
+          "home": "-150",
           "away": "+475",
-          "draw": "+275"
+          "draw": "+265"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-155"
+            "odds": "-150"
           },
           "away": {
             "line": "+0.5",
-            "odds": "+125"
+            "odds": "+120"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+110"
+            "odds": "+120"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-140"
+            "odds": "-150"
           }
         },
         "open": {
@@ -506,11 +506,11 @@
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "+115"
+            "odds": "+120"
           },
           "away": {
             "line": "-0.5",
-            "odds": "-150"
+            "odds": "-155"
           }
         },
         "total": {
@@ -610,7 +610,7 @@
         "total": {
           "over": {
             "line": "o4.5",
-            "odds": "+105"
+            "odds": "+110"
           },
           "under": {
             "line": "u4.5",
@@ -704,11 +704,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-115"
+            "odds": "-110"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-110"
+            "odds": "-115"
           }
         },
         "open": {
@@ -964,13 +964,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ESP -1200",
+        "details": "ESP -1100",
         "spread": "",
         "over_under": 3.5,
         "favorite": null,
         "moneyline": {
-          "home": "-1200",
-          "away": "+2800",
+          "home": "-1100",
+          "away": "+2500",
           "draw": "+1100"
         },
         "spread_line": {
