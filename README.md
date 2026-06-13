@@ -8,9 +8,24 @@
 
 ## 预览
 
-| 3D 地球仪 | 赛程 & 比分 | 积分榜 | AI 助手 |
-|:---------:|:----------:|:------:|:-------:|
-| 48国标记 + 小组配色 | 实时赛果 + 时间线详情 | 12小组完整榜单 | Claude 驱动分析 |
+<table>
+  <tr>
+    <td align="center"><b>🌍 3D 地球仪 + 赛程比分</b></td>
+    <td align="center"><b>📊 积分榜</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/1.png" alt="3D Globe and Matches" width="400"/></td>
+    <td><img src="assets/images/2.png" alt="Standings" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🔮 赛事预测</b></td>
+    <td align="center"><b>🤖 AI 助手</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/3.png" alt="Match Predictions" width="400"/></td>
+    <td><img src="assets/images/4.png" alt="AI Chat Assistant" width="400"/></td>
+  </tr>
+</table>
 
 ---
 
