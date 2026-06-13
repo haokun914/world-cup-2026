@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T14:17:18.504734+00:00",
+  "updated_at": "2026-06-13T15:17:17.468995+00:00",
   "events": [
     {
       "id": "760415",
@@ -277,11 +277,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-170"
+            "odds": "-160"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+135"
+            "odds": "+130"
           }
         },
         "open": {
@@ -537,19 +537,19 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "TUR -140",
+        "details": "TUR -145",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+400",
-          "away": "-140",
-          "draw": "+280"
+          "home": "+425",
+          "away": "-145",
+          "draw": "+285"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "+120"
+            "odds": "+115"
           },
           "away": {
             "line": "-0.5",
