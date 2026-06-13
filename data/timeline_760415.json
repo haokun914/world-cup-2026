@@ -1,0 +1,584 @@
+{
+  "event_id": "760415",
+  "timeline": [
+    {
+      "id": "49483569",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49483413",
+      "type": "goal",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "233075",
+        "name": "Julián Quiñones"
+      }
+    },
+    {
+      "id": "49483541",
+      "type": "yellow_card",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "256691",
+        "name": "Teboho Mokoena"
+      }
+    },
+    {
+      "id": "49483587",
+      "type": "yellow_card",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "303577",
+        "name": "Brian Gutiérrez"
+      }
+    },
+    {
+      "id": "49483601",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49483602",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49483603",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49483604",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49483962",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49483976",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49484043",
+      "type": "red_card",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "228595",
+        "name": "Sphephelo Sithole"
+      }
+    },
+    {
+      "id": "49484117",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "301321",
+        "name": "Thalente Mbatha"
+      },
+      "player_in": {
+        "id": "301321",
+        "name": "Thalente Mbatha"
+      },
+      "player_out": {
+        "id": "264751",
+        "name": "Lyle Foster"
+      }
+    },
+    {
+      "id": "49484186",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "157046",
+        "name": "Themba Zwane"
+      },
+      "player_in": {
+        "id": "157046",
+        "name": "Themba Zwane"
+      },
+      "player_out": {
+        "id": "304736",
+        "name": "Jayden Adams"
+      }
+    },
+    {
+      "id": "49484243",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "104497",
+        "name": "Luis Chávez"
+      },
+      "player_in": {
+        "id": "104497",
+        "name": "Luis Chávez"
+      },
+      "player_out": {
+        "id": "303577",
+        "name": "Brian Gutiérrez"
+      }
+    },
+    {
+      "id": "49484244",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "389575",
+        "name": "Gilberto Mora"
+      },
+      "player_in": {
+        "id": "389575",
+        "name": "Gilberto Mora"
+      },
+      "player_out": {
+        "id": "283827",
+        "name": "Álvaro Fidalgo"
+      }
+    },
+    {
+      "id": "49484266",
+      "type": "goal",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "167060",
+        "name": "Raúl Jiménez"
+      }
+    },
+    {
+      "id": "49484269",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49484268",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49484274",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49484271",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49484314",
+      "type": "start delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49484313",
+      "type": "start delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49484317",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49484316",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49484324",
+      "type": "yellow_card",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "266125",
+        "name": "Nkosinathi Sibisi"
+      }
+    },
+    {
+      "id": "49484359",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "241627",
+        "name": "Edson Álvarez"
+      },
+      "player_in": {
+        "id": "241627",
+        "name": "Edson Álvarez"
+      },
+      "player_out": {
+        "id": "276942",
+        "name": "Érik Lira"
+      }
+    },
+    {
+      "id": "49484360",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "376110",
+        "name": "Armando González"
+      },
+      "player_in": {
+        "id": "376110",
+        "name": "Armando González"
+      },
+      "player_out": {
+        "id": "167060",
+        "name": "Raúl Jiménez"
+      }
+    },
+    {
+      "id": "49484361",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "303312",
+        "name": "Evidence Makgopa"
+      },
+      "player_in": {
+        "id": "303312",
+        "name": "Evidence Makgopa"
+      },
+      "player_out": {
+        "id": "291141",
+        "name": "Iqraam Rayners"
+      }
+    },
+    {
+      "id": "49484362",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "288771",
+        "name": "Oswin Appollis"
+      },
+      "player_in": {
+        "id": "288771",
+        "name": "Oswin Appollis"
+      },
+      "player_out": {
+        "id": "223818",
+        "name": "Aubrey Modiba"
+      }
+    },
+    {
+      "id": "49484390",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "229487",
+        "name": "Alexis Vega"
+      },
+      "player_in": {
+        "id": "229487",
+        "name": "Alexis Vega"
+      },
+      "player_out": {
+        "id": "233075",
+        "name": "Julián Quiñones"
+      }
+    },
+    {
+      "id": "49484422",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49484421",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49484423",
+      "type": "end delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49484424",
+      "type": "end delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49484425",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49484427",
+      "type": "end delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49484429",
+      "type": "red_card",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "157046",
+        "name": "Themba Zwane"
+      }
+    },
+    {
+      "id": "49484548",
+      "type": "red_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "224323",
+        "name": "César Montes"
+      }
+    },
+    {
+      "id": "49484603",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "event_id": "760414",
+  "timeline": [
+    {
+      "id": "49484621",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49484925",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49484926",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49484927",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49484928",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49484936",
+      "type": "start delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49484937",
+      "type": "start delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49484939",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49484938",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49485324",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49485334",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49485589",
+      "type": "goal",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "151714",
+        "name": "Ladislav Krejcí"
+      }
+    },
+    {
+      "id": "49485639",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "237224",
+        "name": "Hwang Hee-Chan"
+      },
+      "player_in": {
+        "id": "237224",
+        "name": "Hwang Hee-Chan"
+      },
+      "player_out": {
+        "id": "134103",
+        "name": "Lee Jae-Sung"
+      }
+    },
+    {
+      "id": "49485647",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "292169",
+        "name": "Adam Hlozek"
+      },
+      "player_in": {
+        "id": "292169",
+        "name": "Adam Hlozek"
+      },
+      "player_out": {
+        "id": "305545",
+        "name": "Pavel Sulc"
+      }
+    },
+    {
+      "id": "49485649",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "257336",
+        "name": "Tomás Chorý"
+      },
+      "player_in": {
+        "id": "257336",
+        "name": "Tomás Chorý"
+      },
+      "player_out": {
+        "id": "212330",
+        "name": "Patrik Schick"
+      }
+    },
+    {
+      "id": "49485651",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "249525",
+        "name": "Michal Sadílek"
+      },
+      "player_in": {
+        "id": "249525",
+        "name": "Michal Sadílek"
+      },
+      "player_out": {
+        "id": "294618",
+        "name": "Lukás Provod"
+      }
+    },
+    {
+      "id": "49485726",
+      "type": "goal",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "280061",
+        "name": "Hwang In-Beom"
+      }
+    },
+    {
+      "id": "49485728",
+      "type": "substitution",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "297791",
+        "name": "Eom Ji-Sung"
+      },
+      "player_in": {
+        "id": "297791",
+        "name": "Eom Ji-Sung"
+      },
+      "player_out": {
+        "id": "297270",
+        "name": "Lee Tae-Seok"
+      }
+    },
+    {
+      "id": "49485729",
+      "type": "substitution",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "302434",
+        "name": "Oh Hyeon-Gyu"
+      },
+      "player_in": {
+        "id": "302434",
+        "name": "Oh Hyeon-Gyu"
+      },
+      "player_out": {
+        "id": "149945",
+        "name": "Son Heung-Min"
+      }
+    },
+    {
+      "id": "49485736",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49485737",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49485738",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49485739",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49485808",
+      "type": "goal",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "302434",
+        "name": "Oh Hyeon-Gyu"
+      }
+    },
+    {
+      "id": "49485836",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "90721",
+        "name": "Kim Jin-Gyu"
+      },
+      "player_in": {
+        "id": "90721",
+        "name": "Kim Jin-Gyu"
+      },
+      "player_out": {
+        "id": "280061",
+        "name": "Hwang In-Beom"
+      }
+    },
+    {
+      "id": "49485837",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "336178",
+        "name": "Park Jin-Seop"
+      },
+      "player_in": {
+        "id": "336178",
+        "name": "Park Jin-Seop"
+      },
+      "player_out": {
+        "id": "256598",
+        "name": "Paik Seung-Ho"
+      }
+    },
+    {
+      "id": "49485841",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "343733",
+        "name": "Mojmír Chytil"
+      },
+      "player_in": {
+        "id": "343733",
+        "name": "Mojmír Chytil"
+      },
+      "player_out": {
+        "id": "387865",
+        "name": "Alexandr Sojka"
+      }
+    },
+    {
+      "id": "49486017",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "345769",
+        "name": "Lee Gi-Hyuk"
+      }
+    },
+    {
+      "id": "49486027",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

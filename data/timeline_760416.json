@@ -1,0 +1,664 @@
+{
+  "event_id": "760416",
+  "timeline": [
+    {
+      "id": "49486048",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49486215",
+      "type": "yellow_card",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "293691",
+        "name": "Alistair Johnston"
+      }
+    },
+    {
+      "id": "49486217",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49486216",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49486219",
+      "type": "end delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49486218",
+      "type": "end delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49486269",
+      "type": "start delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49486267",
+      "type": "start delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49486270",
+      "type": "end delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49486275",
+      "type": "end delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49486368",
+      "type": "goal",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "305118",
+        "name": "Jovo Lukic"
+      }
+    },
+    {
+      "id": "49486380",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49486381",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49486382",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49486384",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49486699",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "269136",
+        "name": "Ermedin Demirovic"
+      }
+    },
+    {
+      "id": "49486732",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "305118",
+        "name": "Jovo Lukic"
+      }
+    },
+    {
+      "id": "49486777",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49486790",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49486842",
+      "type": "start delay",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49486843",
+      "type": "start delay",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49486846",
+      "type": "end delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49486847",
+      "type": "end delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49486903",
+      "type": "yellow_card",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "365345",
+        "name": "Luc de Fougerolles"
+      }
+    },
+    {
+      "id": "49487001",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_in": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_out": {
+        "id": "271879",
+        "name": "Liam Millar"
+      }
+    },
+    {
+      "id": "49487002",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "318522",
+        "name": "Promise David"
+      },
+      "player_in": {
+        "id": "318522",
+        "name": "Promise David"
+      },
+      "player_out": {
+        "id": "273499",
+        "name": "Jonathan David"
+      }
+    },
+    {
+      "id": "49487003",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "340228",
+        "name": "Ali Ahmed"
+      },
+      "player_in": {
+        "id": "340228",
+        "name": "Ali Ahmed"
+      },
+      "player_out": {
+        "id": "284769",
+        "name": "Tajon Buchanan"
+      }
+    },
+    {
+      "id": "49487004",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "322244",
+        "name": "Samed Bazdar"
+      },
+      "player_in": {
+        "id": "322244",
+        "name": "Samed Bazdar"
+      },
+      "player_out": {
+        "id": "305118",
+        "name": "Jovo Lukic"
+      }
+    },
+    {
+      "id": "49487006",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "288932",
+        "name": "Armin Gigovic"
+      },
+      "player_in": {
+        "id": "288932",
+        "name": "Armin Gigovic"
+      },
+      "player_out": {
+        "id": "306256",
+        "name": "Ivan Basic"
+      }
+    },
+    {
+      "id": "49487113",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49487114",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49487116",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49487117",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49487156",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "194767",
+        "name": "Ivan Sunjic"
+      },
+      "player_in": {
+        "id": "194767",
+        "name": "Ivan Sunjic"
+      },
+      "player_out": {
+        "id": "325410",
+        "name": "Esmir Bajraktarevic"
+      }
+    },
+    {
+      "id": "49487158",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "391034",
+        "name": "Kerim Alajbegovic"
+      },
+      "player_in": {
+        "id": "391034",
+        "name": "Kerim Alajbegovic"
+      },
+      "player_out": {
+        "id": "338199",
+        "name": "Amar Memic"
+      }
+    },
+    {
+      "id": "49487218",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      },
+      "player_in": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      },
+      "player_out": {
+        "id": "294039",
+        "name": "Tani Oluwaseyi"
+      }
+    },
+    {
+      "id": "49487265",
+      "type": "goal",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      }
+    },
+    {
+      "id": "49487319",
+      "type": "start delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49487320",
+      "type": "start delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49487324",
+      "type": "end delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49487323",
+      "type": "end delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49487331",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "225571",
+        "name": "Dzenis Burnic"
+      },
+      "player_in": {
+        "id": "225571",
+        "name": "Dzenis Burnic"
+      },
+      "player_out": {
+        "id": "170553",
+        "name": "Sead Kolasinac"
+      }
+    },
+    {
+      "id": "49487456",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "184221",
+        "name": "Jonathan Osorio"
+      },
+      "player_in": {
+        "id": "184221",
+        "name": "Jonathan Osorio"
+      },
+      "player_out": {
+        "id": "270505",
+        "name": "Stephen Eustáquio"
+      }
+    },
+    {
+      "id": "49487480",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "220538",
+        "name": "Nikola Katic"
+      }
+    },
+    {
+      "id": "49487533",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

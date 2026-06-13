@@ -66,6 +66,21 @@ def main():
         teams["updated_at"] = datetime.now(timezone.utc).isoformat()
         save("teams", teams)
 
+    # Timelines for closed matches (cached, only fetch new ones)
+    for event in unique:
+        if event.get("status") not in ("closed", "complete"):
+            continue
+        eid = event["id"]
+        tpath = DATA_DIR / f"timeline_{eid}.json"
+        if tpath.exists():
+            continue
+        tl = run(["sports-skills", "football", "get_event_timeline", f"--event_id={eid}"])
+        if tl:
+            timeline = tl.get("data", {}).get("timeline", [])
+            tpath.write_text(json.dumps({"event_id": eid, "timeline": timeline}, ensure_ascii=False, indent=2))
+            goals = sum(1 for e in timeline if e.get("type") == "score_change")
+            print(f"  timeline {eid}: {len(timeline)} events, {goals} goals")
+
     print("Done.")
 
 

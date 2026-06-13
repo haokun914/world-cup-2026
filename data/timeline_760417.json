@@ -1,0 +1,788 @@
+{
+  "event_id": "760417",
+  "timeline": [
+    {
+      "id": "49489579",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49489736",
+      "type": "own_goal",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "301516",
+        "name": "Damián Bobadilla"
+      }
+    },
+    {
+      "id": "49489818",
+      "type": "yellow_card",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "84295",
+        "name": "Juan Jose Cáceres"
+      }
+    },
+    {
+      "id": "49489937",
+      "type": "start delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49489938",
+      "type": "start delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49489939",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49489940",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49490057",
+      "type": "start delay",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49490058",
+      "type": "start delay",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49490060",
+      "type": "end delay",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49490061",
+      "type": "end delay",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49490259",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49490258",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49490305",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49490306",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49490437",
+      "type": "goal",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "282643",
+        "name": "Folarin Balogun"
+      }
+    },
+    {
+      "id": "49491046",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "282643",
+        "name": "Folarin Balogun"
+      }
+    },
+    {
+      "id": "49491075",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49491156",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "289046",
+        "name": "Maurício"
+      },
+      "player_in": {
+        "id": "289046",
+        "name": "Maurício"
+      },
+      "player_out": {
+        "id": "301516",
+        "name": "Damián Bobadilla"
+      }
+    },
+    {
+      "id": "49491157",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      },
+      "player_in": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      },
+      "player_out": {
+        "id": "225607",
+        "name": "Christian Pulisic"
+      }
+    },
+    {
+      "id": "49491161",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49491243",
+      "type": "start delay",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491242",
+      "type": "start delay",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49491246",
+      "type": "end delay",
+      "minute": 52,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491250",
+      "type": "end delay",
+      "minute": 52,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49491249",
+      "type": "red_card",
+      "minute": 52,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "146290",
+        "name": "Tim Ream"
+      }
+    },
+    {
+      "id": "49491247",
+      "type": "start delay",
+      "minute": 52,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491252",
+      "type": "yellow_card",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "48128",
+        "name": "Miguel Almirón"
+      }
+    },
+    {
+      "id": "49491251",
+      "type": "end delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491365",
+      "type": "yellow_card",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "222776",
+        "name": "Tyler Adams"
+      }
+    },
+    {
+      "id": "49491412",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "257754",
+        "name": "Alex Arce"
+      },
+      "player_in": {
+        "id": "257754",
+        "name": "Alex Arce"
+      },
+      "player_out": {
+        "id": "192162",
+        "name": "Antonio Sanabria"
+      }
+    },
+    {
+      "id": "49491529",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491530",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49491539",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491538",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49491548",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491547",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49491549",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491552",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49491550",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "266027",
+        "name": "Timothy Weah"
+      },
+      "player_in": {
+        "id": "266027",
+        "name": "Timothy Weah"
+      },
+      "player_out": {
+        "id": "266291",
+        "name": "Sergiño Dest"
+      }
+    },
+    {
+      "id": "49491551",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "289120",
+        "name": "Ricardo Pepi"
+      },
+      "player_in": {
+        "id": "289120",
+        "name": "Ricardo Pepi"
+      },
+      "player_out": {
+        "id": "282643",
+        "name": "Folarin Balogun"
+      }
+    },
+    {
+      "id": "49491561",
+      "type": "goal",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "289046",
+        "name": "Maurício"
+      }
+    },
+    {
+      "id": "49491656",
+      "type": "yellow_card",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "192278",
+        "name": "Diego Gómez"
+      }
+    },
+    {
+      "id": "49491657",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "301653",
+        "name": "Ramón Sosa"
+      },
+      "player_in": {
+        "id": "301653",
+        "name": "Ramón Sosa"
+      },
+      "player_out": {
+        "id": "48128",
+        "name": "Miguel Almirón"
+      }
+    },
+    {
+      "id": "49491658",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "119413",
+        "name": "Gustavo Velázquez"
+      },
+      "player_in": {
+        "id": "119413",
+        "name": "Gustavo Velázquez"
+      },
+      "player_out": {
+        "id": "84295",
+        "name": "Juan Jose Cáceres"
+      }
+    },
+    {
+      "id": "49491659",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "188160",
+        "name": "Alejandro Romero Gamarra"
+      },
+      "player_in": {
+        "id": "188160",
+        "name": "Alejandro Romero Gamarra"
+      },
+      "player_out": {
+        "id": "192278",
+        "name": "Diego Gómez"
+      }
+    },
+    {
+      "id": "49491678",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      },
+      "player_in": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      },
+      "player_out": {
+        "id": "301416",
+        "name": "Malik Tillman"
+      }
+    },
+    {
+      "id": "49491787",
+      "type": "yellow_card",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "257754",
+        "name": "Alex Arce"
+      }
+    },
+    {
+      "id": "49491857",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "181657",
+        "name": "Júnior Alonso"
+      }
+    },
+    {
+      "id": "49491858",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49491859",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491861",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49491860",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49491938",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      }
+    },
+    {
+      "id": "49491940",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
