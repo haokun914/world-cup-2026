@@ -266,9 +266,9 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
       <img class="ghc-flag" id="ghc-flag" src="" alt="">
       <div class="ghc-name" id="ghc-name"></div>
       <div class="ghc-sub" id="ghc-sub"></div>
-      <div class="ghc-hint">点击查看详情 →</div>
+      <div class="ghc-hint" id="ghc-hint">点击查看详情 →</div>
     </div>
-    <div id="canvas-hint">🖱 拖拽旋转 · 滚轮缩放 · 点击球队</div>
+    <div id="canvas-hint" id="canvas-hint-txt">🖱 拖拽旋转 · 滚轮缩放 · 点击球队</div>
   </div>
 
   <div id="panel">
@@ -276,8 +276,13 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
     <div class="panel-section active" id="view-globe">
       <div class="section-header"><div class="section-title">🌍 2026 FIFA 世界杯</div></div>
       <div id="globe-team-panel">
+        <!-- Group legend -->
+        <div id="globe-legend" style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid var(--border)"></div>
         <div id="globe-intro-text" class="globe-intro"></div>
         <div id="globe-team-detail">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+            <button id="gtd-back" onclick="showGlobeIntro()" style="background:none;border:1px solid var(--border);border-radius:6px;color:var(--muted);font-size:11px;padding:3px 8px;cursor:pointer">← 返回</button>
+          </div>
           <div class="team-detail-header">
             <img class="team-detail-flag" id="gtd-flag" src="" alt="">
             <div>
@@ -339,8 +344,9 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
 <div id="match-modal">
   <div class="modal-box">
     <div class="mmodal-header">
+      <button class="mmodal-close" id="mmodal-close" style="display:flex;align-items:center;gap:4px;font-size:12px;padding:4px 8px;border:1px solid var(--border);border-radius:6px;background:var(--surface2);color:var(--muted2);cursor:pointer">← 返回</button>
       <span id="mmodal-title" style="font-size:13px;font-weight:700"></span>
-      <button class="mmodal-close" id="mmodal-close">✕</button>
+      <div style="width:56px"></div>
     </div>
     <div class="mmodal-score-row">
       <div class="mmodal-team">

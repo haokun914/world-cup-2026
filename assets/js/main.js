@@ -248,6 +248,7 @@ function initGlobe() {
   // Interaction
   const ray=new THREE.Raycaster(), mouse=new THREE.Vector2();
   let hoveredAbbr=null;
+  let pinnedAbbr=null; // locked after click — hover card stays until another click
 
   canvas.addEventListener('mousemove',e=>{
     setMouse(e,canvas,mouse); ray.setFromCamera(mouse,camera);
@@ -257,12 +258,14 @@ function initGlobe() {
       canvas.style.cursor='pointer';
       if(d.abbr!==hoveredAbbr){
         hoveredAbbr=d.abbr;
-        showHoverCard(d);
+        // Only update hover card if nothing is pinned, or we're hovering the pinned one
+        if(!pinnedAbbr || d.abbr===pinnedAbbr) showHoverCard(d);
       }
     } else {
       canvas.style.cursor='grab';
-      if(hoveredAbbr){
-        hoveredAbbr=null;
+      hoveredAbbr=null;
+      // Only hide hover card if nothing is pinned
+      if(!pinnedAbbr){
         document.getElementById('globe-hover-card').classList.remove('show');
       }
     }
@@ -272,8 +275,11 @@ function initGlobe() {
     setMouse(e,canvas,mouse); ray.setFromCamera(mouse,camera);
     const hits=ray.intersectObjects(markerMeshes);
     if(hits.length){
+      const d=hits[0].object.userData;
+      pinnedAbbr=d.abbr;
       controls.autoRotate=false;
-      showGlobeTeamDetail(hits[0].object.userData);
+      showHoverCard(d); // keep hover card visible after click too
+      showGlobeTeamDetail(d);
       // Switch to globe panel if not active
       activateView('globe');
       setTimeout(()=>{controls.autoRotate=true;},6000);
@@ -373,6 +379,12 @@ function showGlobeTeamDetail(data){
   document.getElementById('globe-intro-text').style.display='none';
   document.getElementById('globe-team-detail').classList.add('show');
 }
+
+window.showGlobeIntro = function(){
+  document.getElementById('globe-intro-text').style.display='block';
+  document.getElementById('globe-team-detail').classList.remove('show');
+  document.getElementById('globe-hover-card').classList.remove('show');
+};
 
 window.showGlobeTeamDetailByAbbr = function(abbr){
   const team=S.teamIndex[abbr];
@@ -521,8 +533,10 @@ function renderTimeline(eventId, homeTeam, awayTeam){
   }).join('');
 }
 
-document.getElementById('mmodal-close').addEventListener('click',()=>document.getElementById('match-modal').classList.remove('show'));
-document.getElementById('match-modal').addEventListener('click',e=>{if(e.target===document.getElementById('match-modal'))document.getElementById('match-modal').classList.remove('show');});
+document.getElementById('mmodal-close').addEventListener('click',closeMatchModal);
+document.getElementById('match-modal').addEventListener('click',e=>{if(e.target===document.getElementById('match-modal'))closeMatchModal();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMatchModal();});
+function closeMatchModal(){document.getElementById('match-modal').classList.remove('show');}
 
 // ── Standings ──────────────────────────────────────────────────────────────
 function renderStandings(){
@@ -601,9 +615,11 @@ function predictCardHTML(m,idx){
   return `<div class="predict-card" data-idx="${idx}">
     <div class="predict-hdr">
       <div class="predict-teams-txt">
-        ${flagImg(hT,'')} ${hCmp?.team?.name||'?'}
-        <span style="color:var(--muted);margin:0 4px">vs</span>
-        ${aCmp?.team?.name||'?'} ${flagImg(aT,'')}
+        <img src="${hT.crest||''}" style="width:20px;height:14px;object-fit:cover;border-radius:2px;vertical-align:middle;flex-shrink:0" onerror="this.style.display='none'">
+        <span style="font-size:12px">${hCmp?.team?.name||'?'}</span>
+        <span style="color:var(--muted);font-size:11px;flex-shrink:0">vs</span>
+        <span style="font-size:12px">${aCmp?.team?.name||'?'}</span>
+        <img src="${aT.crest||''}" style="width:20px;height:14px;object-fit:cover;border-radius:2px;vertical-align:middle;flex-shrink:0" onerror="this.style.display='none'">
       </div>
       <div class="predict-time">${fmtTime(m.start_time)}</div>
     </div>
@@ -856,9 +872,36 @@ function renderGlobeIntro(){
   document.getElementById('globe-intro-text').style.display='block';
   document.getElementById('globe-intro-text').innerHTML=t('globe_intro').split('\n').map(l=>`<p>${l}</p>`).join('');
   document.getElementById('globe-team-detail').classList.remove('show');
+
+  // Group color legend
+  const legend=document.getElementById('globe-legend');
+  if(legend) legend.innerHTML=S.standings.map((grp,gi)=>`
+    <div style="display:flex;align-items:center;gap:4px;cursor:pointer;padding:3px 7px;border-radius:5px;border:1px solid var(--border);background:var(--surface2);transition:border-color 0.15s"
+         onmouseover="this.style.borderColor='${GROUP_COLORS[gi]}'"
+         onmouseout="this.style.borderColor='var(--border)'"
+         onclick="highlightGroup(${gi})">
+      <span style="width:8px;height:8px;border-radius:50%;background:${GROUP_COLORS[gi]};flex-shrink:0;display:inline-block"></span>
+      <span style="font-size:10px;font-weight:600">${grp.name}</span>
+    </div>`).join('');
+
+  // Update hover hint language
+  const hint=document.getElementById('ghc-hint');
+  if(hint) hint.textContent=lang==='zh'?'点击查看详情 →':'Click for details →';
+  const canvasHint=document.getElementById('canvas-hint');
+  if(canvasHint) canvasHint.textContent=lang==='zh'?'🖱 拖拽旋转 · 滚轮缩放 · 点击球队':'🖱 Drag · Scroll zoom · Click team';
 }
 
 // ── Team coords ────────────────────────────────────────────────────────────
+// Clicking a group legend chip shows the first team in that group
+window.highlightGroup = function(gi){
+  const grp=S.standings[gi];
+  if(!grp) return;
+  const first=grp.entries[0];
+  if(!first) return;
+  showGlobeTeamDetailByAbbr(first.team.abbreviation);
+  activateView('globe');
+};
+
 function getTeamCoords(){
   return {
     MEX:[23.6,-102.5],KOR:[35.9,127.8],RSA:[-29.0,25.0],CZE:[49.8,15.5],
