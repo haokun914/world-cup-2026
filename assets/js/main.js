@@ -5,13 +5,15 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 const I18N = {
   zh: {
     nav_globe:'🌍 地球仪', nav_matches:'📅 赛程', nav_standings:'🏆 积分榜',
-    nav_predict:'🔮 预测', nav_skill:'🤖 AI问答',
+    nav_predict:'🔮 预测', nav_skill:'🤖 AI问答', nav_live:'📺 直播', nav_comments:'💬 留言',
     globe_intro:'旋转地球查看 48 支参赛队分布\n彩色标记 = 小组颜色\n点击标记 → 右侧显示球队详情',
     peers_title:'同组球队', matches_title_glob:'本届赛事',
     matches_title:'📅 近期赛事', standings_title:'🏆 小组积分榜',
     predict_title:'🔮 赛事预测分析',
     predict_intro:'预测基于赔率（DraftKings）和积分形势。点击任意比赛展开详细分析。',
     skill_title:'🤖 AI 世界杯助手',
+    live_title:'📺 直播入口',
+    mf_all:'全部', mf_today:'今日', mf_live:'进行中', mf_upcoming:'未开始', mf_done:'已结束',
     col_pos:'#', col_team:'球队', col_p:'场', col_w:'胜', col_d:'平', col_l:'负', col_gd:'净', col_pts:'分',
     click_detail:'点击球队查看详情',
     no_matches:'暂无赛事数据',
@@ -30,13 +32,15 @@ const I18N = {
   },
   en: {
     nav_globe:'🌍 Globe', nav_matches:'📅 Matches', nav_standings:'🏆 Standings',
-    nav_predict:'🔮 Predict', nav_skill:'🤖 AI Chat',
+    nav_predict:'🔮 Predict', nav_skill:'🤖 AI Chat', nav_live:'📺 Live', nav_comments:'💬 Comments',
     globe_intro:"Rotate the globe to see all 48 teams\nColored markers = group color\nClick a marker → view team details",
     peers_title:'Group rivals', matches_title_glob:'Tournament record',
     matches_title:'📅 Recent Matches', standings_title:'🏆 Group Standings',
     predict_title:'🔮 Match Predictions',
     predict_intro:'Predictions based on DraftKings odds and standings form. Click any match to expand the analysis.',
     skill_title:'🤖 AI World Cup Assistant',
+    live_title:'📺 Live Streams',
+    mf_all:'All', mf_today:'Today', mf_live:'Live', mf_upcoming:'Upcoming', mf_done:'Finished',
     col_pos:'#', col_team:'Team', col_p:'P', col_w:'W', col_d:'D', col_l:'L', col_gd:'GD', col_pts:'Pts',
     click_detail:'Click a team row to view details',
     no_matches:'No match data',
@@ -516,14 +520,57 @@ window.showGlobeTeamDetailByAbbr = function(abbr){
 };
 
 // ── Matches ────────────────────────────────────────────────────────────────
+let currentMatchFilter = 'all';
+
 function renderMatches(){
   const container=document.getElementById('matches-list');
   document.getElementById('matches-title-txt').textContent=t('matches_title');
-  const list=[...S.recentMatches].sort((a,b)=>new Date(b.start_time)-new Date(a.start_time));
-  if(!list.length){container.innerHTML=`<p style="color:var(--muted);font-size:12px;text-align:center;padding:20px">${t('no_matches')}</p>`;return;}
-  container.innerHTML=list.map(m=>matchCardHTML(m)).join('');
+  updateMatchFilterLabels();
+
+  const todayStr=new Date().toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
+
+  const filtered=[...S.recentMatches].filter(m=>{
+    if(currentMatchFilter==='all') return true;
+    const isLive=m.status==='in_progress';
+    const isDone=m.status==='closed'||m.status==='complete';
+    const isUpcoming=!isLive&&!isDone;
+    const mDate=new Date(m.start_time).toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
+    if(currentMatchFilter==='live') return isLive;
+    if(currentMatchFilter==='done') return isDone;
+    if(currentMatchFilter==='upcoming') return isUpcoming;
+    if(currentMatchFilter==='today') return mDate===todayStr;
+    return true;
+  }).sort((a,b)=>{
+    // upcoming first within all/upcoming; rest by time desc
+    if(currentMatchFilter==='done') return new Date(b.start_time)-new Date(a.start_time);
+    return new Date(a.start_time)-new Date(b.start_time);
+  });
+
+  if(!filtered.length){container.innerHTML=`<p style="color:var(--muted);font-size:12px;text-align:center;padding:20px">${t('no_matches')}</p>`;return;}
+  container.innerHTML=filtered.map(m=>matchCardHTML(m)).join('');
   container.querySelectorAll('.match-card').forEach((card,i)=>{
-    card.addEventListener('click',()=>openMatchModal(list[i].id));
+    card.addEventListener('click',()=>openMatchModal(filtered[i].id));
+  });
+}
+
+function updateMatchFilterLabels(){
+  const bar=document.getElementById('match-filter-bar');
+  if(!bar) return;
+  const labels={all:t('mf_all'),today:t('mf_today'),live:t('mf_live'),upcoming:t('mf_upcoming'),done:t('mf_done')};
+  bar.querySelectorAll('.mf-btn').forEach(btn=>{
+    btn.textContent=labels[btn.dataset.filter]||btn.textContent;
+    btn.classList.toggle('active',btn.dataset.filter===currentMatchFilter);
+  });
+}
+
+function initMatchFilter(){
+  const bar=document.getElementById('match-filter-bar');
+  if(!bar) return;
+  bar.addEventListener('click',e=>{
+    const btn=e.target.closest('.mf-btn');
+    if(!btn) return;
+    currentMatchFilter=btn.dataset.filter;
+    renderMatches();
   });
 }
 
@@ -829,6 +876,52 @@ function buildPredictAnalysis(m){
     `<div class="predict-disclaimer">⚠ ${lang==='zh'?'AI预测，仅供参考，不构成投注建议':'AI prediction only — not betting advice'}</div>`;
 }
 
+// ── Live Streams ────────────────────────────────────────────────────────────
+const LIVE_STREAMS = {
+  zh: [
+    { name:'CCTV5+', sub:'央视体育 · 官方直播', url:'https://tv.cctv.com/live/cctv5p/', badge:'cn' },
+    { name:'咪咕视频', sub:'中国移动官方版权平台', url:'https://www.miguvideo.com/', badge:'cn' },
+    { name:'优酷体育', sub:'部分场次付费直播', url:'https://sports.youku.com/', badge:'cn' },
+    { name:'腾讯体育', sub:'部分场次免费直播', url:'https://sports.qq.com/', badge:'cn' },
+  ],
+  intl: [
+    { name:'FIFA+', sub:'Official · Free · Geo-restricted', url:'https://www.fifa.com/fifaplus/en/live', badge:'intl' },
+    { name:'FOX Sports', sub:'USA · Fox / FS1 / FS2', url:'https://www.foxsports.com/', badge:'intl' },
+    { name:'Peacock', sub:'USA · Telemundo / NBC', url:'https://www.peacocktv.com/', badge:'intl' },
+    { name:'BBC iPlayer', sub:'UK · Geo-restricted', url:'https://www.bbc.co.uk/iplayer', badge:'intl' },
+    { name:'ITV / ITVX', sub:'UK · Geo-restricted', url:'https://www.itv.com/', badge:'intl' },
+    { name:'DAZN', sub:'Global · Subscription required', url:'https://www.dazn.com/', badge:'intl' },
+  ],
+};
+
+function renderLive(){
+  const container=document.getElementById('live-list');
+  document.getElementById('live-title-txt').textContent=t('live_title');
+  const cnLabel=lang==='zh'?'🇨🇳 中国区直播平台':'🇨🇳 Chinese Platforms';
+  const intlLabel=lang==='zh'?'🌐 国际直播平台':'🌐 International Platforms';
+  const disclaimerZh='⚠ 直播权限按地区限制，部分平台需要账号或付费。点击跳转外部平台，与本站无关。';
+  const disclaimerEn='⚠ Streams are geo-restricted. Some require subscription. External links — not affiliated.';
+
+  const makeCards=streams=>streams.map(s=>`
+    <a href="${s.url}" target="_blank" rel="noopener nofollow" class="live-card">
+      <span class="live-dot"></span>
+      <div style="flex:1;min-width:0">
+        <div class="live-name">${s.name}</div>
+        <div class="live-sub">${s.sub}</div>
+      </div>
+      <span class="live-badge ${s.badge}">${s.badge==='cn'?(lang==='zh'?'国内':'CN'):'INTL'}</span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity:0.4;flex-shrink:0"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+    </a>`).join('');
+
+  container.innerHTML=`
+    <div class="live-section-hdr">${cnLabel}</div>
+    ${makeCards(LIVE_STREAMS.zh)}
+    <div class="live-section-hdr" style="margin-top:8px">${intlLabel}</div>
+    ${makeCards(LIVE_STREAMS.intl)}
+    <p style="font-size:10px;color:var(--muted);margin-top:12px;line-height:1.7">${lang==='zh'?disclaimerZh:disclaimerEn}</p>
+  `;
+}
+
 // ── AI Chat ────────────────────────────────────────────────────────────────
 let apiKey='';
 const chatMsgs=document.getElementById('chat-messages');
@@ -973,6 +1066,17 @@ function initNav(){
   document.querySelectorAll('.nav-btn').forEach(btn=>{
     btn.addEventListener('click',()=>activateView(btn.dataset.view));
   });
+  // WeChat QR toggle (click for mobile, hover handled by CSS)
+  const wBtn=document.getElementById('wechat-btn');
+  const wPop=document.getElementById('wechat-qr-pop');
+  if(wBtn&&wPop){
+    wBtn.addEventListener('click',e=>{
+      e.stopPropagation();
+      wPop.style.display=wPop.style.display==='flex'?'none':'flex';
+    });
+    document.addEventListener('click',()=>{ wPop.style.display='none'; });
+    wPop.addEventListener('click',e=>e.stopPropagation());
+  }
 }
 
 // Language toggle
@@ -983,6 +1087,7 @@ document.getElementById('lang-btn').addEventListener('click',()=>{
   renderMatches();
   renderStandings();
   renderPredictions();
+  renderLive();
   renderQuickBtns();
   chatMsgs.innerHTML='';
   addBubble('assistant', t('ai_intro').replace(/\n/g,'<br>'));
@@ -1127,7 +1232,9 @@ async function main(){
   renderMatches();
   renderStandings();
   renderPredictions();
+  renderLive();
   initNav();
+  initMatchFilter();
   initChat();
   prog(100,'完成!');
   initGlobe();
