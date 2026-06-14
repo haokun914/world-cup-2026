@@ -1,0 +1,441 @@
+{
+  "event_id": "760422",
+  "timeline": [
+    {
+      "id": "49506808",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49506991",
+      "type": "goal",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "281122",
+        "name": "Felix Nmecha"
+      }
+    },
+    {
+      "id": "49507416",
+      "type": "goal",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "317285",
+        "name": "Livano Comenencia"
+      }
+    },
+    {
+      "id": "49507426",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49507427",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49507432",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49507431",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49507667",
+      "type": "goal",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "286828",
+        "name": "Nico Schlotterbeck"
+      }
+    },
+    {
+      "id": "49507949",
+      "type": "red_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "231182",
+        "name": "Kai Havertz"
+      }
+    },
+    {
+      "id": "49507970",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49508193",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "310925",
+        "name": "Jeremy Antonisse"
+      },
+      "player_in": {
+        "id": "310925",
+        "name": "Jeremy Antonisse"
+      },
+      "player_out": {
+        "id": "297299",
+        "name": "Sontje Hansen"
+      }
+    },
+    {
+      "id": "49508206",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49508258",
+      "type": "goal",
+      "minute": 47,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "303821",
+        "name": "Jamal Musiala"
+      }
+    },
+    {
+      "id": "49508782",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      },
+      "player_in": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      },
+      "player_out": {
+        "id": "303821",
+        "name": "Jamal Musiala"
+      }
+    },
+    {
+      "id": "49508785",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "301441",
+        "name": "Jearl Margaritha"
+      },
+      "player_in": {
+        "id": "301441",
+        "name": "Jearl Margaritha"
+      },
+      "player_out": {
+        "id": "167213",
+        "name": "Jürgen Locadia"
+      }
+    },
+    {
+      "id": "49508863",
+      "type": "goal",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "120829",
+        "name": "Nathaniel Brown"
+      }
+    },
+    {
+      "id": "49508865",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49508866",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49508867",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49508868",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49508870",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "169438",
+        "name": "Antonio Rüdiger"
+      },
+      "player_in": {
+        "id": "169438",
+        "name": "Antonio Rüdiger"
+      },
+      "player_out": {
+        "id": "188052",
+        "name": "Jonathan Tah"
+      }
+    },
+    {
+      "id": "49508869",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "174550",
+        "name": "Leon Goretzka"
+      },
+      "player_in": {
+        "id": "174550",
+        "name": "Leon Goretzka"
+      },
+      "player_out": {
+        "id": "281122",
+        "name": "Felix Nmecha"
+      }
+    },
+    {
+      "id": "49508876",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "249548",
+        "name": "David Raum"
+      },
+      "player_in": {
+        "id": "249548",
+        "name": "David Raum"
+      },
+      "player_out": {
+        "id": "120829",
+        "name": "Nathaniel Brown"
+      }
+    },
+    {
+      "id": "49508963",
+      "type": "goal",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      }
+    },
+    {
+      "id": "49509035",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "178273",
+        "name": "Gervane Kastaneer"
+      },
+      "player_in": {
+        "id": "178273",
+        "name": "Gervane Kastaneer"
+      },
+      "player_out": {
+        "id": "276218",
+        "name": "Tahith Chong"
+      }
+    },
+    {
+      "id": "49509037",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "220714",
+        "name": "Waldemar Anton"
+      },
+      "player_in": {
+        "id": "220714",
+        "name": "Waldemar Anton"
+      },
+      "player_out": {
+        "id": "190161",
+        "name": "Joshua Kimmich"
+      }
+    },
+    {
+      "id": "49509123",
+      "type": "goal",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "231182",
+        "name": "Kai Havertz"
+      }
+    },
+    {
+      "id": "49509261",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

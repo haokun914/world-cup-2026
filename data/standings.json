@@ -335,7 +335,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 4,
+            "position": 2,
             "team": {
               "id": "209",
               "name": "Ecuador",
@@ -362,14 +362,14 @@
               "abbreviation": "GER",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
             },
-            "played": 0,
-            "won": 0,
+            "played": 1,
+            "won": 1,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
-            "goal_difference": 0,
-            "points": 0,
+            "goals_for": 7,
+            "goals_against": 1,
+            "goal_difference": 6,
+            "points": 3,
             "form": ""
           },
           {
@@ -392,7 +392,7 @@
             "form": ""
           },
           {
-            "position": 2,
+            "position": 4,
             "team": {
               "id": "11678",
               "name": "Curaçao",
@@ -400,13 +400,13 @@
               "abbreviation": "CUW",
               "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
             "drawn": 0,
-            "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
-            "goal_difference": 0,
+            "lost": 1,
+            "goals_for": 1,
+            "goals_against": 7,
+            "goal_difference": -6,
             "points": 0,
             "form": ""
           }
@@ -417,7 +417,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "449",
               "name": "Netherlands",
@@ -455,7 +455,7 @@
             "form": ""
           },
           {
-            "position": 2,
+            "position": 1,
             "team": {
               "id": "627",
               "name": "Japan",
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-14T18:08:40.687055+00:00"
+  "updated_at": "2026-06-14T20:04:47.567534+00:00"
 }
