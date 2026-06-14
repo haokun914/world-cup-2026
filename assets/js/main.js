@@ -177,7 +177,12 @@ function startCountdown() {
       .filter(m => m.status === 'not_started' || m.status === 'scheduled')
       .sort((a, b) => new Date(a.start_time) - new Date(b.start_time))[0];
     const wrap = document.getElementById('countdown-wrap');
-    if (!next || !wrap) { clearInterval(_countdownTimer); _countdownTimer = null; if (wrap) wrap.style.display = 'none'; return; }
+    // World Cup 2026 final: 2026-07-19. Stop timer only after tournament ends.
+    const WC_END = new Date('2026-07-20T00:00:00Z');
+    if (!next || !wrap) {
+      if (Date.now() > WC_END) { clearInterval(_countdownTimer); _countdownTimer = null; if (wrap) wrap.style.display = 'none'; }
+      return;
+    }
     const diff = new Date(next.start_time) - Date.now();
     if (diff <= 0) { wrap.style.display = 'none'; return; }
     wrap.style.display = 'flex';
