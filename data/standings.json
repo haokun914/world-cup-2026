@@ -335,7 +335,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "209",
               "name": "Ecuador",
@@ -373,7 +373,7 @@
             "form": ""
           },
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": "4789",
               "name": "Ivory Coast",
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-14T22:59:47.356482+00:00"
+  "updated_at": "2026-06-15T00:06:47.655685+00:00"
 }
