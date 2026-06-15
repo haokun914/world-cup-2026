@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 // ── i18n ───────────────────────────────────────────────────────────────────
 const I18N = {
   zh: {
-    nav_globe:'🌍 地球仪', nav_matches:'📅 赛程', nav_standings:'🏆 积分榜',
+    nav_globe:'🔥 今日热点', nav_matches:'📅 赛程', nav_standings:'🏆 积分榜',
     nav_predict:'🔮 预测', nav_skill:'🤖 AI问答', nav_live:'📺 直播', nav_comments:'💬 留言',
     globe_intro:'旋转地球查看 48 支参赛队分布\n彩色标记 = 小组颜色\n点击标记 → 右侧显示球队详情',
     peers_title:'同组球队', matches_title_glob:'本届赛事',
@@ -31,7 +31,7 @@ const I18N = {
     lang_switch:'EN',
   },
   en: {
-    nav_globe:'🌍 Globe', nav_matches:'📅 Matches', nav_standings:'🏆 Standings',
+    nav_globe:'🔥 Today', nav_matches:'📅 Matches', nav_standings:'🏆 Standings',
     nav_predict:'🔮 Predict', nav_skill:'🤖 AI Chat', nav_live:'📺 Live', nav_comments:'💬 Comments',
     globe_intro:"Rotate the globe to see all 48 teams\nColored markers = group color\nClick a marker → view team details",
     peers_title:'Group rivals', matches_title_glob:'Tournament record',
@@ -1889,6 +1889,54 @@ function renderGlobeIntro(){
   if(hint) hint.textContent=lang==='zh'?'点击查看详情 →':'Click for details →';
   const canvasHint=document.getElementById('canvas-hint');
   if(canvasHint) canvasHint.textContent=lang==='zh'?'🖱 拖拽旋转 · 滚轮缩放 · 点击球队 · 金线=今日赛事':'🖱 Drag · Scroll zoom · Click team · Gold arc = today\'s match';
+
+  renderGlobeHotspot();
+}
+
+async function renderGlobeHotspot(){
+  const el=document.getElementById('globe-hotspot');
+  if(!el) return;
+
+  const todayStr=new Date().toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
+  const todayDone=S.recentMatches.filter(m=>{
+    const d=new Date(m.start_time).toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
+    return d===todayStr&&(m.status==='closed'||m.status==='complete');
+  });
+
+  for(const m of todayDone){
+    if(!S.matchTimelines[m.id]) S.matchTimelines[m.id]=await fetchTimeline(m.id);
+  }
+
+  const HOT_TYPES={'score_change':'⚽','red_card':'🟥','yellow_red_card':'🟨🟥'};
+  const events=[];
+  todayDone.forEach(m=>{
+    (S.matchTimelines[m.id]||[]).forEach(e=>{
+      if(HOT_TYPES[e.type]&&e.player?.name) events.push({...e,matchId:m.id});
+    });
+  });
+  events.sort((a,b)=>(b.minute||0)-(a.minute||0));
+
+  if(!events.length){
+    el.innerHTML=`<div style="font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--accent2);margin-bottom:6px">🔥 ${lang==='zh'?'今日热点':'Today\'s Highlights'}</div><div style="font-size:11px;color:var(--muted);padding:4px 0">${lang==='zh'?'暂无热点事件':'No highlights yet'}</div>`;
+    return;
+  }
+
+  el.innerHTML=`
+    <div style="font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--accent2);margin-bottom:8px">
+      🔥 ${lang==='zh'?'今日热点':'Today\'s Highlights'} · ${events.length}${lang==='zh'?'个事件':'events'}
+    </div>
+    ${events.map(e=>{
+      const icon=HOT_TYPES[e.type];
+      const tm=S.teamIndex[e.team?.abbreviation]||{};
+      const scoreNote=e.type==='score_change'&&e.score_home!=null
+        ?` <span style="color:var(--gold);font-weight:700;font-size:10px">(${e.score_home}-${e.score_away})</span>`:'';
+      return `<div style="display:flex;align-items:center;gap:7px;padding:5px 8px;margin-bottom:4px;background:var(--surface2);border:1px solid var(--border);border-radius:7px;font-size:11px">
+        <span style="font-size:13px;flex-shrink:0">${icon}</span>
+        <img src="${tm.crest||''}" style="width:18px;height:13px;object-fit:cover;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+        <span style="flex:1;font-weight:600">${e.player.name}${scoreNote}</span>
+        <span style="color:var(--muted);font-size:10px;flex-shrink:0">${e.minute??'?'}'</span>
+      </div>`;
+    }).join('')}`;
 }
 
 // ── Team coords ────────────────────────────────────────────────────────────
