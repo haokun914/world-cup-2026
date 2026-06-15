@@ -1,0 +1,481 @@
+{
+  "event_id": "760426",
+  "timeline": [
+    {
+      "id": "49523674",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49523901",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49523904",
+      "type": "end delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49523906",
+      "type": "yellow_card",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "357112",
+        "name": "Marawan Attia"
+      }
+    },
+    {
+      "id": "49523926",
+      "type": "yellow_card",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "197163",
+        "name": "Timothy Castagne"
+      }
+    },
+    {
+      "id": "49524019",
+      "type": "goal",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "299365",
+        "name": "Emam Ashour"
+      }
+    },
+    {
+      "id": "49524056",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49524055",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49524058",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49524057",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49524202",
+      "type": "yellow_card",
+      "minute": 34,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "265176",
+        "name": "Ahmed Fatouh"
+      }
+    },
+    {
+      "id": "49524475",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49524500",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49524651",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "260027",
+        "name": "Nicolas Raskin"
+      },
+      "player_in": {
+        "id": "260027",
+        "name": "Nicolas Raskin"
+      },
+      "player_out": {
+        "id": "197163",
+        "name": "Timothy Castagne"
+      }
+    },
+    {
+      "id": "49524650",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "301327",
+        "name": "Maxim De Cuyper"
+      },
+      "player_in": {
+        "id": "301327",
+        "name": "Maxim De Cuyper"
+      },
+      "player_out": {
+        "id": "304799",
+        "name": "Amadou Onana"
+      }
+    },
+    {
+      "id": "49524793",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "139437",
+        "name": "Romelu Lukaku"
+      },
+      "player_in": {
+        "id": "139437",
+        "name": "Romelu Lukaku"
+      },
+      "player_out": {
+        "id": "296319",
+        "name": "Charles De Ketelaere"
+      }
+    },
+    {
+      "id": "49524800",
+      "type": "own_goal",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "119993",
+        "name": "Mohamed Hany"
+      }
+    },
+    {
+      "id": "49524799",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49524801",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49524803",
+      "type": "end delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49524810",
+      "type": "end delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49524809",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "187571",
+        "name": "Ramy Rabia"
+      },
+      "player_in": {
+        "id": "187571",
+        "name": "Ramy Rabia"
+      },
+      "player_out": {
+        "id": "299365",
+        "name": "Emam Ashour"
+      }
+    },
+    {
+      "id": "49524907",
+      "type": "yellow_card",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "301327",
+        "name": "Maxim De Cuyper"
+      }
+    },
+    {
+      "id": "49524915",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "195154",
+        "name": "Zizo"
+      },
+      "player_in": {
+        "id": "195154",
+        "name": "Zizo"
+      },
+      "player_out": {
+        "id": "378495",
+        "name": "Mostafa Zico"
+      }
+    },
+    {
+      "id": "49524916",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "399200",
+        "name": "Hamza Abdelkarim"
+      },
+      "player_in": {
+        "id": "399200",
+        "name": "Hamza Abdelkarim"
+      },
+      "player_out": {
+        "id": "173896",
+        "name": "Mohamed Salah"
+      }
+    },
+    {
+      "id": "49525062",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "359651",
+        "name": "Matias Fernandez-Pardo"
+      },
+      "player_in": {
+        "id": "359651",
+        "name": "Matias Fernandez-Pardo"
+      },
+      "player_out": {
+        "id": "283672",
+        "name": "Jérémy Doku"
+      }
+    },
+    {
+      "id": "49525063",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "193849",
+        "name": "Hans Vanaken"
+      },
+      "player_in": {
+        "id": "193849",
+        "name": "Hans Vanaken"
+      },
+      "player_out": {
+        "id": "134947",
+        "name": "Kevin De Bruyne"
+      }
+    },
+    {
+      "id": "49525086",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "216119",
+        "name": "Karim Hafez"
+      },
+      "player_in": {
+        "id": "216119",
+        "name": "Karim Hafez"
+      },
+      "player_out": {
+        "id": "265176",
+        "name": "Ahmed Fatouh"
+      }
+    },
+    {
+      "id": "49525087",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "299619",
+        "name": "Ibrahim Adel"
+      },
+      "player_in": {
+        "id": "299619",
+        "name": "Ibrahim Adel"
+      },
+      "player_out": {
+        "id": "285057",
+        "name": "Hamdy Fathy"
+      }
+    },
+    {
+      "id": "49525213",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

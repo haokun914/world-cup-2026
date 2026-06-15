@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T20:21:20.512620+00:00",
+  "updated_at": "2026-06-15T22:33:57.144610+00:00",
   "events": [
     {
       "id": "760415",
@@ -666,7 +666,7 @@
     },
     {
       "id": "760426",
-      "status": "2nd_half",
+      "status": "closed",
       "start_time": "2026-06-15T19:00Z",
       "matchday": null,
       "round": "",
@@ -695,7 +695,7 @@
             "abbreviation": "BEL"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -709,58 +709,15 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "BEL -200",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-200",
-          "away": "+550",
-          "draw": "+320"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-1.5",
-            "odds": "+155"
-          },
-          "away": {
-            "line": "+1.5",
-            "odds": "-195"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-115"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "-105"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "-170",
-            "away": "+400",
-            "draw": "+330"
-          },
-          "spread": {
-            "home": "-0.5",
-            "away": "+0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
       "id": "760429",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-06-15T22:00Z",
       "matchday": null,
       "round": "",
@@ -808,33 +765,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "URU -225",
+        "details": "URU -205",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+700",
-          "away": "-225",
-          "draw": "+340"
+          "home": "+650",
+          "away": "-205",
+          "draw": "+310"
         },
         "spread_line": {
           "home": {
             "line": "+1.5",
-            "odds": "-165"
+            "odds": "-195"
           },
           "away": {
             "line": "-1.5",
-            "odds": "+130"
+            "odds": "+150"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+110"
+            "odds": "+120"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-135"
+            "odds": "-150"
           }
         },
         "open": {
@@ -1190,7 +1147,7 @@
         "favorite": null,
         "moneyline": {
           "home": "-245",
-          "away": "+800",
+          "away": "+750",
           "draw": "+360"
         },
         "spread_line": {
@@ -1294,7 +1251,7 @@
           },
           "away": {
             "line": "+1.5",
-            "odds": "-125"
+            "odds": "-120"
           }
         },
         "total": {
