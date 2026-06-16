@@ -663,7 +663,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 4,
+            "position": 2,
             "team": {
               "id": "464",
               "name": "Norway",
@@ -690,18 +690,18 @@
               "abbreviation": "FRA",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
             },
-            "played": 0,
-            "won": 0,
+            "played": 1,
+            "won": 1,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
-            "goal_difference": 0,
-            "points": 0,
+            "goals_for": 3,
+            "goals_against": 1,
+            "goal_difference": 2,
+            "points": 3,
             "form": ""
           },
           {
-            "position": 2,
+            "position": 4,
             "team": {
               "id": "654",
               "name": "Senegal",
@@ -709,13 +709,13 @@
               "abbreviation": "SEN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
             "drawn": 0,
-            "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
-            "goal_difference": 0,
+            "lost": 1,
+            "goals_for": 1,
+            "goals_against": 3,
+            "goal_difference": -2,
             "points": 0,
             "form": ""
           },
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-16T19:28:06.765628+00:00"
+  "updated_at": "2026-06-16T22:00:47.386142+00:00"
 }

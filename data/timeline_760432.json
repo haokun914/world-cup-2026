@@ -1,0 +1,478 @@
+{
+  "event_id": "760432",
+  "timeline": [
+    {
+      "id": "49531066",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49531513",
+      "type": "start delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49531512",
+      "type": "start delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49531519",
+      "type": "end delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49531518",
+      "type": "end delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49531715",
+      "type": "start delay",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49531714",
+      "type": "start delay",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49531717",
+      "type": "end delay",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49531716",
+      "type": "end delay",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49531885",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49531890",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49532121",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49532123",
+      "type": "end delay",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49532203",
+      "type": "goal",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49532221",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49532222",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49532224",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49532223",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49532273",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "388522",
+        "name": "Ibrahim Mbaye"
+      },
+      "player_in": {
+        "id": "388522",
+        "name": "Ibrahim Mbaye"
+      },
+      "player_out": {
+        "id": "241012",
+        "name": "Ismaïla Sarr"
+      }
+    },
+    {
+      "id": "49532274",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "324991",
+        "name": "Habib Diarra"
+      },
+      "player_in": {
+        "id": "324991",
+        "name": "Habib Diarra"
+      },
+      "player_out": {
+        "id": "38721",
+        "name": "Lamine Camara"
+      }
+    },
+    {
+      "id": "49532335",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      },
+      "player_in": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      },
+      "player_out": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49532382",
+      "type": "goal",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      }
+    },
+    {
+      "id": "49532384",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "268641",
+        "name": "Iliman Ndiaye"
+      },
+      "player_in": {
+        "id": "268641",
+        "name": "Iliman Ndiaye"
+      },
+      "player_out": {
+        "id": "255889",
+        "name": "Pape Gueye"
+      }
+    },
+    {
+      "id": "49532385",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "313889",
+        "name": "Bamba Dieng"
+      },
+      "player_in": {
+        "id": "313889",
+        "name": "Bamba Dieng"
+      },
+      "player_out": {
+        "id": "308524",
+        "name": "Nicolas Jackson"
+      }
+    },
+    {
+      "id": "49532443",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      },
+      "player_in": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      },
+      "player_out": {
+        "id": "336388",
+        "name": "Désiré Doué"
+      }
+    },
+    {
+      "id": "49532463",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "294228",
+        "name": "Pathé Ciss"
+      },
+      "player_in": {
+        "id": "294228",
+        "name": "Pathé Ciss"
+      },
+      "player_out": {
+        "id": "144517",
+        "name": "Idrissa Gueye"
+      }
+    },
+    {
+      "id": "49532591",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "388522",
+        "name": "Ibrahim Mbaye"
+      }
+    },
+    {
+      "id": "49532600",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49532636",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49532634",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49532637",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49532638",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49532651",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
