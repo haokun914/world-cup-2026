@@ -827,7 +827,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 4,
+            "position": 3,
             "team": {
               "id": "208",
               "name": "Colombia",
@@ -846,7 +846,7 @@
             "form": ""
           },
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "482",
               "name": "Portugal",
@@ -854,18 +854,18 @@
               "abbreviation": "POR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
+            "goals_for": 1,
+            "goals_against": 1,
             "goal_difference": 0,
-            "points": 0,
+            "points": 1,
             "form": ""
           },
           {
-            "position": 3,
+            "position": 4,
             "team": {
               "id": "2570",
               "name": "Uzbekistan",
@@ -884,7 +884,7 @@
             "form": ""
           },
           {
-            "position": 2,
+            "position": 1,
             "team": {
               "id": "2850",
               "name": "Congo DR",
@@ -892,14 +892,14 @@
               "abbreviation": "COD",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
+            "goals_for": 1,
+            "goals_against": 1,
             "goal_difference": 0,
-            "points": 0,
+            "points": 1,
             "form": ""
           }
         ]
@@ -909,7 +909,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "448",
               "name": "England",
@@ -928,7 +928,7 @@
             "form": ""
           },
           {
-            "position": 2,
+            "position": 1,
             "team": {
               "id": "477",
               "name": "Croatia",
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-17T17:44:13.898613+00:00"
+  "updated_at": "2026-06-17T19:57:26.452336+00:00"
 }

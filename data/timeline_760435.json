@@ -1,0 +1,434 @@
+{
+  "event_id": "760435",
+  "timeline": [
+    {
+      "id": "49538861",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49538978",
+      "type": "goal",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "355061",
+        "name": "João Neves"
+      }
+    },
+    {
+      "id": "49539086",
+      "type": "yellow_card",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "199833",
+        "name": "Bernardo Silva"
+      }
+    },
+    {
+      "id": "49539286",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49539287",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49539289",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49539288",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49539363",
+      "type": "yellow_card",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "174322",
+        "name": "Chancel Mbemba"
+      }
+    },
+    {
+      "id": "49539666",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "224077",
+        "name": "Yoane Wissa"
+      }
+    },
+    {
+      "id": "49539669",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49539671",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "312659",
+        "name": "Francisco Conceição"
+      },
+      "player_in": {
+        "id": "312659",
+        "name": "Francisco Conceição"
+      },
+      "player_out": {
+        "id": "199833",
+        "name": "Bernardo Silva"
+      }
+    },
+    {
+      "id": "49539676",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49539831",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "340240",
+        "name": "Noah Sadiki"
+      },
+      "player_in": {
+        "id": "340240",
+        "name": "Noah Sadiki"
+      },
+      "player_out": {
+        "id": "345988",
+        "name": "Ngal'ayel Mukau"
+      }
+    },
+    {
+      "id": "49540006",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49540005",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49540008",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49540009",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49540010",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "258917",
+        "name": "Rafael Leão"
+      },
+      "player_in": {
+        "id": "258917",
+        "name": "Rafael Leão"
+      },
+      "player_out": {
+        "id": "256115",
+        "name": "Pedro Neto"
+      }
+    },
+    {
+      "id": "49540011",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "222670",
+        "name": "Nélson Semedo"
+      },
+      "player_in": {
+        "id": "222670",
+        "name": "Nélson Semedo"
+      },
+      "player_out": {
+        "id": "290591",
+        "name": "Nuno Mendes"
+      }
+    },
+    {
+      "id": "49540045",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "235875",
+        "name": "Charles Pickel"
+      },
+      "player_in": {
+        "id": "235875",
+        "name": "Charles Pickel"
+      },
+      "player_out": {
+        "id": "268986",
+        "name": "Edo Kayembe"
+      }
+    },
+    {
+      "id": "49540046",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "204329",
+        "name": "Joris Kayembe"
+      },
+      "player_in": {
+        "id": "204329",
+        "name": "Joris Kayembe"
+      },
+      "player_out": {
+        "id": "165892",
+        "name": "Arthur Masuaku"
+      }
+    },
+    {
+      "id": "49540184",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "288896",
+        "name": "Gonçalo Ramos"
+      },
+      "player_in": {
+        "id": "288896",
+        "name": "Gonçalo Ramos"
+      },
+      "player_out": {
+        "id": "288897",
+        "name": "Vitinha "
+      }
+    },
+    {
+      "id": "49540213",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "291345",
+        "name": "Gédéon Kalulu"
+      },
+      "player_in": {
+        "id": "291345",
+        "name": "Gédéon Kalulu"
+      },
+      "player_out": {
+        "id": "250945",
+        "name": "Aaron Wan-Bissaka"
+      }
+    },
+    {
+      "id": "49540214",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "231161",
+        "name": "Simon Banza"
+      },
+      "player_in": {
+        "id": "231161",
+        "name": "Simon Banza"
+      },
+      "player_out": {
+        "id": "147193",
+        "name": "Cédric Bakambu"
+      }
+    },
+    {
+      "id": "49540257",
+      "type": "yellow_card",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "222670",
+        "name": "Nélson Semedo"
+      }
+    },
+    {
+      "id": "49540328",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "329691",
+        "name": "Tomás Araújo"
+      }
+    },
+    {
+      "id": "49540362",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
