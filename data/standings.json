@@ -827,7 +827,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 3,
+            "position": 1,
             "team": {
               "id": "208",
               "name": "Colombia",
@@ -835,18 +835,18 @@
               "abbreviation": "COL",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
             },
-            "played": 0,
-            "won": 0,
+            "played": 1,
+            "won": 1,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
-            "goal_difference": 0,
-            "points": 0,
+            "goals_for": 3,
+            "goals_against": 1,
+            "goal_difference": 2,
+            "points": 3,
             "form": ""
           },
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "482",
               "name": "Portugal",
@@ -873,18 +873,18 @@
               "abbreviation": "UZB",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
             "drawn": 0,
-            "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
-            "goal_difference": 0,
+            "lost": 1,
+            "goals_for": 1,
+            "goals_against": 3,
+            "goal_difference": -2,
             "points": 0,
             "form": ""
           },
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "2850",
               "name": "Congo DR",
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-18T02:01:28.942413+00:00"
+  "updated_at": "2026-06-18T06:54:12.225902+00:00"
 }

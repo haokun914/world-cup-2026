@@ -1,0 +1,553 @@
+{
+  "event_id": "760436",
+  "timeline": [
+    {
+      "id": "49543475",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49543556",
+      "type": "yellow_card",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "173247",
+        "name": "Johan Mojica"
+      }
+    },
+    {
+      "id": "49543679",
+      "type": "start delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49543678",
+      "type": "start delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49543680",
+      "type": "end delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49543681",
+      "type": "end delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49543784",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49543783",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49543788",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49543787",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49543921",
+      "type": "yellow_card",
+      "minute": 34,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "362211",
+        "name": "Abdukodir Khusanov"
+      }
+    },
+    {
+      "id": "49544004",
+      "type": "goal",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "146679",
+        "name": "Daniel Muñoz"
+      }
+    },
+    {
+      "id": "49544150",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49544155",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "195274",
+        "name": "Dostonbek Khamdamov"
+      },
+      "player_in": {
+        "id": "195274",
+        "name": "Dostonbek Khamdamov"
+      },
+      "player_out": {
+        "id": "288949",
+        "name": "Oston Urunov"
+      }
+    },
+    {
+      "id": "49544156",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "211537",
+        "name": "Farrukh Sayfiev"
+      },
+      "player_in": {
+        "id": "211537",
+        "name": "Farrukh Sayfiev"
+      },
+      "player_out": {
+        "id": "321728",
+        "name": "Sherzod Nasrullaev"
+      }
+    },
+    {
+      "id": "49544160",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49544426",
+      "type": "goal",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "317793",
+        "name": "Abbosbek Fayzullaev"
+      }
+    },
+    {
+      "id": "49544478",
+      "type": "goal",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "257390",
+        "name": "Luis Díaz"
+      }
+    },
+    {
+      "id": "49544513",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49544512",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49544515",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49544514",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49544516",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "255295",
+        "name": "Jáminton Campaz"
+      },
+      "player_in": {
+        "id": "255295",
+        "name": "Jáminton Campaz"
+      },
+      "player_out": {
+        "id": "82816",
+        "name": "James Rodríguez"
+      }
+    },
+    {
+      "id": "49544552",
+      "type": "start delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49544551",
+      "type": "start delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49544554",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49544557",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49544555",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "362329",
+        "name": "Jakhongir Urozov"
+      },
+      "player_in": {
+        "id": "362329",
+        "name": "Jakhongir Urozov"
+      },
+      "player_out": {
+        "id": "195282",
+        "name": "Rustam Ashurmatov"
+      }
+    },
+    {
+      "id": "49544556",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "253231",
+        "name": "Azizbek Amonov"
+      },
+      "player_in": {
+        "id": "253231",
+        "name": "Azizbek Amonov"
+      },
+      "player_out": {
+        "id": "317793",
+        "name": "Abbosbek Fayzullaev"
+      }
+    },
+    {
+      "id": "49544588",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      },
+      "player_in": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      },
+      "player_out": {
+        "id": "341736",
+        "name": "Gustavo Puerta"
+      }
+    },
+    {
+      "id": "49544589",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "336809",
+        "name": "Cucho Hernández"
+      },
+      "player_in": {
+        "id": "336809",
+        "name": "Cucho Hernández"
+      },
+      "player_out": {
+        "id": "272722",
+        "name": "Luis Suárez"
+      }
+    },
+    {
+      "id": "49544775",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "330924",
+        "name": "Andrés Gómez"
+      },
+      "player_in": {
+        "id": "330924",
+        "name": "Andrés Gómez"
+      },
+      "player_out": {
+        "id": "257390",
+        "name": "Luis Díaz"
+      }
+    },
+    {
+      "id": "49544777",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "307756",
+        "name": "Kevin Castaño"
+      },
+      "player_in": {
+        "id": "307756",
+        "name": "Kevin Castaño"
+      },
+      "player_out": {
+        "id": "239566",
+        "name": "Jhon Arias"
+      }
+    },
+    {
+      "id": "49544776",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "156663",
+        "name": "Igor Sergeev"
+      },
+      "player_in": {
+        "id": "156663",
+        "name": "Igor Sergeev"
+      },
+      "player_out": {
+        "id": "216937",
+        "name": "Eldor Shomurodov"
+      }
+    },
+    {
+      "id": "49544854",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "255295",
+        "name": "Jáminton Campaz"
+      }
+    },
+    {
+      "id": "49544881",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
