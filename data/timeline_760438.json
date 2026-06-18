@@ -1,0 +1,444 @@
+{
+  "event_id": "760438",
+  "timeline": [
+    {
+      "id": "49544906",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49544975",
+      "type": "goal",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "249525",
+        "name": "Michal Sadílek"
+      }
+    },
+    {
+      "id": "49545264",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49545263",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49545269",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49545271",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49545397",
+      "type": "yellow_card",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "256691",
+        "name": "Teboho Mokoena"
+      }
+    },
+    {
+      "id": "49545484",
+      "type": "yellow_card",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "301321",
+        "name": "Thalente Mbatha"
+      }
+    },
+    {
+      "id": "49545627",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49545632",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "361211",
+        "name": "Relebohile Mofokeng"
+      },
+      "player_in": {
+        "id": "361211",
+        "name": "Relebohile Mofokeng"
+      },
+      "player_out": {
+        "id": "304736",
+        "name": "Jayden Adams"
+      }
+    },
+    {
+      "id": "49545633",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49545796",
+      "type": "substitution",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "305545",
+        "name": "Pavel Sulc"
+      },
+      "player_in": {
+        "id": "305545",
+        "name": "Pavel Sulc"
+      },
+      "player_out": {
+        "id": "165637",
+        "name": "Vladimír Darida"
+      }
+    },
+    {
+      "id": "49545797",
+      "type": "substitution",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "276659",
+        "name": "Jaroslav Zelený"
+      },
+      "player_in": {
+        "id": "276659",
+        "name": "Jaroslav Zelený"
+      },
+      "player_out": {
+        "id": "387865",
+        "name": "Alexandr Sojka"
+      }
+    },
+    {
+      "id": "49545964",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "303312",
+        "name": "Evidence Makgopa"
+      },
+      "player_in": {
+        "id": "303312",
+        "name": "Evidence Makgopa"
+      },
+      "player_out": {
+        "id": "291141",
+        "name": "Iqraam Rayners"
+      }
+    },
+    {
+      "id": "49545965",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "230666",
+        "name": "Tomás Soucek"
+      },
+      "player_in": {
+        "id": "230666",
+        "name": "Tomás Soucek"
+      },
+      "player_out": {
+        "id": "249525",
+        "name": "Michal Sadílek"
+      }
+    },
+    {
+      "id": "49545966",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "294618",
+        "name": "Lukás Provod"
+      },
+      "player_in": {
+        "id": "294618",
+        "name": "Lukás Provod"
+      },
+      "player_out": {
+        "id": "292169",
+        "name": "Adam Hlozek"
+      }
+    },
+    {
+      "id": "49545998",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49546000",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49546001",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49546002",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49546063",
+      "type": "yellow_card",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "151714",
+        "name": "Ladislav Krejcí"
+      }
+    },
+    {
+      "id": "49546065",
+      "type": "start delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49546067",
+      "type": "start delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49546070",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49546071",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49546095",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "290116",
+        "name": "David Zima"
+      },
+      "player_in": {
+        "id": "290116",
+        "name": "David Zima"
+      },
+      "player_out": {
+        "id": "303726",
+        "name": "Lukás Cerv"
+      }
+    },
+    {
+      "id": "49546146",
+      "type": "red_card",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "256691",
+        "name": "Teboho Mokoena"
+      }
+    },
+    {
+      "id": "49546149",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "337134",
+        "name": "Kamogelo Sebelebele"
+      },
+      "player_in": {
+        "id": "337134",
+        "name": "Kamogelo Sebelebele"
+      },
+      "player_out": {
+        "id": "335450",
+        "name": "Thapelo Maseko"
+      }
+    },
+    {
+      "id": "49546403",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
