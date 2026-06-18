@@ -1,0 +1,574 @@
+{
+  "event_id": "760439",
+  "timeline": [
+    {
+      "id": "49546414",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49546769",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49546770",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49546771",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49546772",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49547007",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49547008",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49547009",
+      "type": "end delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49547010",
+      "type": "end delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49547140",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49547151",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49547342",
+      "type": "start delay",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49547344",
+      "type": "end delay",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49547400",
+      "type": "yellow_card",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "308979",
+        "name": "Amar Dedic"
+      }
+    },
+    {
+      "id": "49547425",
+      "type": "yellow_card",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "102337",
+        "name": "Edin Dzeko"
+      }
+    },
+    {
+      "id": "49547451",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "306256",
+        "name": "Ivan Basic"
+      },
+      "player_in": {
+        "id": "306256",
+        "name": "Ivan Basic"
+      },
+      "player_out": {
+        "id": "352660",
+        "name": "Benjamin Tahirovic"
+      }
+    },
+    {
+      "id": "49547452",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "325410",
+        "name": "Esmir Bajraktarevic"
+      },
+      "player_in": {
+        "id": "325410",
+        "name": "Esmir Bajraktarevic"
+      },
+      "player_out": {
+        "id": "102337",
+        "name": "Edin Dzeko"
+      }
+    },
+    {
+      "id": "49547483",
+      "type": "yellow_card",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "212237",
+        "name": "Nico Elvedi"
+      }
+    },
+    {
+      "id": "49547527",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49547526",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49547531",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "222446",
+        "name": "Djibril Sow"
+      },
+      "player_in": {
+        "id": "222446",
+        "name": "Djibril Sow"
+      },
+      "player_out": {
+        "id": "245623",
+        "name": "Michel Aebischer"
+      }
+    },
+    {
+      "id": "49547529",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      },
+      "player_in": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      },
+      "player_out": {
+        "id": "275842",
+        "name": "Dan Ndoye"
+      }
+    },
+    {
+      "id": "49547530",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "259513",
+        "name": "Rubén Vargas"
+      },
+      "player_in": {
+        "id": "259513",
+        "name": "Rubén Vargas"
+      },
+      "player_out": {
+        "id": "308908",
+        "name": "Fabian Rieder"
+      }
+    },
+    {
+      "id": "49547532",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49547528",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49547581",
+      "type": "goal",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      }
+    },
+    {
+      "id": "49547692",
+      "type": "red_card",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "318390",
+        "name": "Tarik Muharemovic"
+      }
+    },
+    {
+      "id": "49547748",
+      "type": "goal",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "259513",
+        "name": "Rubén Vargas"
+      }
+    },
+    {
+      "id": "49547753",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "305118",
+        "name": "Jovo Lukic"
+      },
+      "player_in": {
+        "id": "305118",
+        "name": "Jovo Lukic"
+      },
+      "player_out": {
+        "id": "269136",
+        "name": "Ermedin Demirovic"
+      }
+    },
+    {
+      "id": "49547752",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "221961",
+        "name": "Amir Hadziahmetovic"
+      },
+      "player_in": {
+        "id": "221961",
+        "name": "Amir Hadziahmetovic"
+      },
+      "player_out": {
+        "id": "194767",
+        "name": "Ivan Sunjic"
+      }
+    },
+    {
+      "id": "49547754",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "332574",
+        "name": "Luca Jaquez"
+      },
+      "player_in": {
+        "id": "332574",
+        "name": "Luca Jaquez"
+      },
+      "player_out": {
+        "id": "175905",
+        "name": "Silvan Widmer"
+      }
+    },
+    {
+      "id": "49547785",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "234153",
+        "name": "Cedric Itten"
+      },
+      "player_in": {
+        "id": "234153",
+        "name": "Cedric Itten"
+      },
+      "player_out": {
+        "id": "202099",
+        "name": "Breel Embolo"
+      }
+    },
+    {
+      "id": "49547805",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      }
+    },
+    {
+      "id": "49547807",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      },
+      "player_in": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      },
+      "player_out": {
+        "id": "391034",
+        "name": "Kerim Alajbegovic"
+      }
+    },
+    {
+      "id": "49547831",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      }
+    },
+    {
+      "id": "49547869",
+      "type": "red_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "149981",
+        "name": "Granit Xhaka"
+      }
+    },
+    {
+      "id": "49547870",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
