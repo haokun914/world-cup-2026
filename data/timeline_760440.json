@@ -1,0 +1,757 @@
+{
+  "event_id": "760440",
+  "timeline": [
+    {
+      "id": "49547887",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49548026",
+      "type": "yellow_card",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "238712",
+        "name": "Derek Cornelius"
+      }
+    },
+    {
+      "id": "49548127",
+      "type": "goal",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      }
+    },
+    {
+      "id": "49548185",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548184",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548187",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548186",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548209",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548210",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548211",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548212",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548240",
+      "type": "goal",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "273499",
+        "name": "Jonathan David"
+      }
+    },
+    {
+      "id": "49548269",
+      "type": "start delay",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548271",
+      "type": "end delay",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548272",
+      "type": "red_card",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "272874",
+        "name": "Homam Ahmed"
+      }
+    },
+    {
+      "id": "49548360",
+      "type": "substitution",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "219248",
+        "name": "Sultan Al-Brake"
+      },
+      "player_in": {
+        "id": "219248",
+        "name": "Sultan Al-Brake"
+      },
+      "player_out": {
+        "id": "274164",
+        "name": "Yusuf Abdurisag"
+      }
+    },
+    {
+      "id": "49548478",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "273499",
+        "name": "Jonathan David"
+      }
+    },
+    {
+      "id": "49548540",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49548541",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "268018",
+        "name": "Ahmed Fathy"
+      },
+      "player_in": {
+        "id": "268018",
+        "name": "Ahmed Fathy"
+      },
+      "player_out": {
+        "id": "109204",
+        "name": "Edmílson Junior"
+      }
+    },
+    {
+      "id": "49548542",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "309315",
+        "name": "Mohamed Manai"
+      },
+      "player_in": {
+        "id": "309315",
+        "name": "Mohamed Manai"
+      },
+      "player_out": {
+        "id": "310373",
+        "name": "Jassem Gaber"
+      }
+    },
+    {
+      "id": "49548543",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "358975",
+        "name": "Moïse Bombito"
+      },
+      "player_in": {
+        "id": "358975",
+        "name": "Moïse Bombito"
+      },
+      "player_out": {
+        "id": "238712",
+        "name": "Derek Cornelius"
+      }
+    },
+    {
+      "id": "49548549",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49548658",
+      "type": "start delay",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548666",
+      "type": "start delay",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548661",
+      "type": "start delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548663",
+      "type": "end delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548664",
+      "type": "red_card",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "219254",
+        "name": "Assim Madibo"
+      }
+    },
+    {
+      "id": "49548665",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548667",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548668",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "311163",
+        "name": "Nathan Saliba"
+      },
+      "player_in": {
+        "id": "311163",
+        "name": "Nathan Saliba"
+      },
+      "player_out": {
+        "id": "325001",
+        "name": "Ismaël Koné"
+      }
+    },
+    {
+      "id": "49548682",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "384827",
+        "name": "Al-Hashmi Al-Hussain"
+      },
+      "player_in": {
+        "id": "384827",
+        "name": "Al-Hashmi Al-Hussain"
+      },
+      "player_out": {
+        "id": "219258",
+        "name": "Akram Afif"
+      }
+    },
+    {
+      "id": "49548734",
+      "type": "yellow_card",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "268018",
+        "name": "Ahmed Fathy"
+      }
+    },
+    {
+      "id": "49548735",
+      "type": "goal",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "311163",
+        "name": "Nathan Saliba"
+      }
+    },
+    {
+      "id": "49548755",
+      "type": "start delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548756",
+      "type": "start delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548757",
+      "type": "end delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548758",
+      "type": "end delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548780",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548781",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548783",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548782",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548784",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_in": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_out": {
+        "id": "365345",
+        "name": "Luc de Fougerolles"
+      }
+    },
+    {
+      "id": "49548785",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "294039",
+        "name": "Tani Oluwaseyi"
+      },
+      "player_in": {
+        "id": "294039",
+        "name": "Tani Oluwaseyi"
+      },
+      "player_out": {
+        "id": "340228",
+        "name": "Ali Ahmed"
+      }
+    },
+    {
+      "id": "49548839",
+      "type": "own_goal",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "309315",
+        "name": "Mohamed Manai"
+      }
+    },
+    {
+      "id": "49548944",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548943",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49548945",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "363538",
+        "name": "Niko Sigur"
+      },
+      "player_in": {
+        "id": "363538",
+        "name": "Niko Sigur"
+      },
+      "player_out": {
+        "id": "284769",
+        "name": "Tajon Buchanan"
+      }
+    },
+    {
+      "id": "49548946",
+      "type": "end delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49548947",
+      "type": "end delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49549008",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "125617",
+        "name": "Lucas Mendes"
+      },
+      "player_in": {
+        "id": "125617",
+        "name": "Lucas Mendes"
+      },
+      "player_out": {
+        "id": "268018",
+        "name": "Ahmed Fathy"
+      }
+    },
+    {
+      "id": "49549074",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "273499",
+        "name": "Jonathan David"
+      }
+    },
+    {
+      "id": "49549204",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

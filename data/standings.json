@@ -89,7 +89,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 2,
+            "position": 1,
             "team": {
               "id": "206",
               "name": "Canada",
@@ -97,14 +97,14 @@
               "abbreviation": "CAN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
             },
-            "played": 1,
-            "won": 0,
+            "played": 2,
+            "won": 1,
             "drawn": 1,
             "lost": 0,
-            "goals_for": 1,
+            "goals_for": 7,
             "goals_against": 1,
-            "goal_difference": 0,
-            "points": 1,
+            "goal_difference": 6,
+            "points": 4,
             "form": ""
           },
           {
@@ -127,7 +127,7 @@
             "form": ""
           },
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "475",
               "name": "Switzerland",
@@ -154,13 +154,13 @@
               "abbreviation": "QAT",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 0,
             "drawn": 1,
-            "lost": 0,
+            "lost": 1,
             "goals_for": 1,
-            "goals_against": 1,
-            "goal_difference": 0,
+            "goals_against": 7,
+            "goal_difference": -6,
             "points": 1,
             "form": ""
           }
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-18T22:30:11.938061+00:00"
+  "updated_at": "2026-06-19T00:10:24.518571+00:00"
 }
