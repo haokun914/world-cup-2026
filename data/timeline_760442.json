@@ -1,0 +1,742 @@
+{
+  "event_id": "760442",
+  "timeline": [
+    {
+      "id": "49553460",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49553647",
+      "type": "own_goal",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "207350",
+        "name": "Cameron Burgess"
+      }
+    },
+    {
+      "id": "49553721",
+      "type": "yellow_card",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "328541",
+        "name": "Jordan Bos"
+      }
+    },
+    {
+      "id": "49553847",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49553848",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49553851",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49553852",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49553926",
+      "type": "yellow_card",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "332081",
+        "name": "Alessandro Circati"
+      }
+    },
+    {
+      "id": "49554040",
+      "type": "start delay",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554041",
+      "type": "start delay",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554044",
+      "type": "end delay",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554045",
+      "type": "end delay",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554086",
+      "type": "goal",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "248276",
+        "name": "Alex Freeman"
+      }
+    },
+    {
+      "id": "49554082",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554084",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554179",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49554182",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "172137",
+        "name": "Jason Geria"
+      },
+      "player_in": {
+        "id": "172137",
+        "name": "Jason Geria"
+      },
+      "player_out": {
+        "id": "207350",
+        "name": "Cameron Burgess"
+      }
+    },
+    {
+      "id": "49554183",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "260643",
+        "name": "Connor Metcalfe"
+      },
+      "player_in": {
+        "id": "260643",
+        "name": "Connor Metcalfe"
+      },
+      "player_out": {
+        "id": "318429",
+        "name": "Nishan Velupillay"
+      }
+    },
+    {
+      "id": "49554184",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "328535",
+        "name": "Nestory Irankunda"
+      },
+      "player_in": {
+        "id": "328535",
+        "name": "Nestory Irankunda"
+      },
+      "player_out": {
+        "id": "302688",
+        "name": "Mohamed Toure"
+      }
+    },
+    {
+      "id": "49554188",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49554328",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554329",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554333",
+      "type": "end delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554332",
+      "type": "end delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554369",
+      "type": "yellow_card",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "222396",
+        "name": "Antonee Robinson"
+      }
+    },
+    {
+      "id": "49554424",
+      "type": "start delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554427",
+      "type": "end delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554432",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554430",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554433",
+      "type": "end delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554434",
+      "type": "end delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554436",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "330259",
+        "name": "Cristian Volpato"
+      },
+      "player_in": {
+        "id": "330259",
+        "name": "Cristian Volpato"
+      },
+      "player_out": {
+        "id": "140994",
+        "name": "Mathew Leckie"
+      }
+    },
+    {
+      "id": "49554572",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554571",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554580",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554578",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554630",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      },
+      "player_in": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      },
+      "player_out": {
+        "id": "289120",
+        "name": "Ricardo Pepi"
+      }
+    },
+    {
+      "id": "49554692",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "178071",
+        "name": "Jackson Irvine"
+      },
+      "player_in": {
+        "id": "178071",
+        "name": "Jackson Irvine"
+      },
+      "player_out": {
+        "id": "403528",
+        "name": "Paul Okon-Engstler"
+      }
+    },
+    {
+      "id": "49554715",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "272135",
+        "name": "Joe Scally"
+      },
+      "player_in": {
+        "id": "272135",
+        "name": "Joe Scally"
+      },
+      "player_out": {
+        "id": "266291",
+        "name": "Sergiño Dest"
+      }
+    },
+    {
+      "id": "49554716",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "228619",
+        "name": "Auston Trusty"
+      },
+      "player_in": {
+        "id": "228619",
+        "name": "Auston Trusty"
+      },
+      "player_out": {
+        "id": "222396",
+        "name": "Antonee Robinson"
+      }
+    },
+    {
+      "id": "49554841",
+      "type": "yellow_card",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "207461",
+        "name": "Harry Souttar"
+      }
+    },
+    {
+      "id": "49554840",
+      "type": "yellow_card",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "282643",
+        "name": "Folarin Balogun"
+      }
+    },
+    {
+      "id": "49554842",
+      "type": "yellow_card",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "267053",
+        "name": "Jacob Italiano"
+      }
+    },
+    {
+      "id": "49554974",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "272585",
+        "name": "Chris Richards"
+      }
+    },
+    {
+      "id": "49554976",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554977",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554979",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49554978",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49554994",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "220474",
+        "name": "Haji Wright"
+      },
+      "player_in": {
+        "id": "220474",
+        "name": "Haji Wright"
+      },
+      "player_out": {
+        "id": "282643",
+        "name": "Folarin Balogun"
+      }
+    },
+    {
+      "id": "49554995",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      },
+      "player_in": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      },
+      "player_out": {
+        "id": "256715",
+        "name": "Weston McKennie"
+      }
+    },
+    {
+      "id": "49555033",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

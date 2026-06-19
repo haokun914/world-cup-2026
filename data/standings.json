@@ -299,13 +299,13 @@
               "abbreviation": "AUS",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 1,
             "drawn": 0,
-            "lost": 0,
+            "lost": 1,
             "goals_for": 2,
-            "goals_against": 0,
-            "goal_difference": 2,
+            "goals_against": 2,
+            "goal_difference": 0,
             "points": 3,
             "form": ""
           },
@@ -318,14 +318,14 @@
               "abbreviation": "USA",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
             },
-            "played": 1,
-            "won": 1,
+            "played": 2,
+            "won": 2,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 4,
+            "goals_for": 6,
             "goals_against": 1,
-            "goal_difference": 3,
-            "points": 3,
+            "goal_difference": 5,
+            "points": 6,
             "form": ""
           }
         ]
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-19T20:12:12.694142+00:00"
+  "updated_at": "2026-06-19T21:42:08.452422+00:00"
 }
