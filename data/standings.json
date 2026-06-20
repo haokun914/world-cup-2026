@@ -417,7 +417,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 3,
+            "position": 1,
             "team": {
               "id": "449",
               "name": "Netherlands",
@@ -425,18 +425,18 @@
               "abbreviation": "NED",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
             },
-            "played": 1,
-            "won": 0,
+            "played": 2,
+            "won": 1,
             "drawn": 1,
             "lost": 0,
-            "goals_for": 2,
-            "goals_against": 2,
-            "goal_difference": 0,
-            "points": 1,
+            "goals_for": 7,
+            "goals_against": 3,
+            "goal_difference": 4,
+            "points": 4,
             "form": ""
           },
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "466",
               "name": "Sweden",
@@ -444,18 +444,18 @@
               "abbreviation": "SWE",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 1,
             "drawn": 0,
-            "lost": 0,
-            "goals_for": 5,
-            "goals_against": 1,
-            "goal_difference": 4,
+            "lost": 1,
+            "goals_for": 6,
+            "goals_against": 6,
+            "goal_difference": 0,
             "points": 3,
             "form": ""
           },
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "627",
               "name": "Japan",
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-20T18:10:06.240255+00:00"
+  "updated_at": "2026-06-20T20:02:22.994043+00:00"
 }
