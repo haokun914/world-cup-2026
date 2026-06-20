@@ -1,0 +1,604 @@
+{
+  "event_id": "760448",
+  "timeline": [
+    {
+      "id": "49562612",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49562881",
+      "type": "start delay",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49562882",
+      "type": "start delay",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49562887",
+      "type": "end delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49562886",
+      "type": "end delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49563013",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49563012",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49563015",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49563014",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49563040",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49563041",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49563045",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49563046",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49563073",
+      "type": "goal",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "194711",
+        "name": "Franck Kessié"
+      }
+    },
+    {
+      "id": "49563558",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49563577",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "169438",
+        "name": "Antonio Rüdiger"
+      },
+      "player_in": {
+        "id": "169438",
+        "name": "Antonio Rüdiger"
+      },
+      "player_out": {
+        "id": "286828",
+        "name": "Nico Schlotterbeck"
+      }
+    },
+    {
+      "id": "49563583",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49563872",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "290811",
+        "name": "Jamie Leweling"
+      },
+      "player_in": {
+        "id": "290811",
+        "name": "Jamie Leweling"
+      },
+      "player_out": {
+        "id": "202641",
+        "name": "Leroy Sané"
+      }
+    },
+    {
+      "id": "49563873",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      },
+      "player_in": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      },
+      "player_out": {
+        "id": "303821",
+        "name": "Jamal Musiala"
+      }
+    },
+    {
+      "id": "49563874",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "210818",
+        "name": "Nadiem Amiri"
+      },
+      "player_in": {
+        "id": "210818",
+        "name": "Nadiem Amiri"
+      },
+      "player_out": {
+        "id": "359370",
+        "name": "Aleksandar Pavlovic"
+      }
+    },
+    {
+      "id": "49563990",
+      "type": "goal",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      }
+    },
+    {
+      "id": "49564045",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49564046",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49564050",
+      "type": "end delay",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49564047",
+      "type": "end delay",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49564048",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "288924",
+        "name": "Evann Guessand"
+      },
+      "player_in": {
+        "id": "288924",
+        "name": "Evann Guessand"
+      },
+      "player_out": {
+        "id": "309185",
+        "name": "Ange-Yoan Bonny"
+      }
+    },
+    {
+      "id": "49564049",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "184118",
+        "name": "Seko Fofana"
+      },
+      "player_in": {
+        "id": "184118",
+        "name": "Seko Fofana"
+      },
+      "player_out": {
+        "id": "213718",
+        "name": "Ibrahim Sangaré"
+      }
+    },
+    {
+      "id": "49564051",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "317404",
+        "name": "Simon Adingra"
+      },
+      "player_in": {
+        "id": "317404",
+        "name": "Simon Adingra"
+      },
+      "player_out": {
+        "id": "291630",
+        "name": "Amad Diallo"
+      }
+    },
+    {
+      "id": "49564156",
+      "type": "start delay",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49564157",
+      "type": "start delay",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49564159",
+      "type": "end delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49564158",
+      "type": "end delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49564168",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49564170",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49564169",
+      "type": "end delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49564171",
+      "type": "end delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49564188",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "346636",
+        "name": "Guela Doué"
+      },
+      "player_in": {
+        "id": "346636",
+        "name": "Guela Doué"
+      },
+      "player_out": {
+        "id": "286569",
+        "name": "Wilfried Singo"
+      }
+    },
+    {
+      "id": "49564224",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "210397",
+        "name": "Nicolas Pépé"
+      },
+      "player_in": {
+        "id": "210397",
+        "name": "Nicolas Pépé"
+      },
+      "player_out": {
+        "id": "402479",
+        "name": "Yan Diomande"
+      }
+    },
+    {
+      "id": "49564225",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "174550",
+        "name": "Leon Goretzka"
+      },
+      "player_in": {
+        "id": "174550",
+        "name": "Leon Goretzka"
+      },
+      "player_out": {
+        "id": "231182",
+        "name": "Kai Havertz"
+      }
+    },
+    {
+      "id": "49564386",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      }
+    },
+    {
+      "id": "49564417",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

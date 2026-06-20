@@ -362,14 +362,14 @@
               "abbreviation": "GER",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
             },
-            "played": 1,
-            "won": 1,
+            "played": 2,
+            "won": 2,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 7,
-            "goals_against": 1,
-            "goal_difference": 6,
-            "points": 3,
+            "goals_for": 9,
+            "goals_against": 2,
+            "goal_difference": 7,
+            "points": 6,
             "form": ""
           },
           {
@@ -381,13 +381,13 @@
               "abbreviation": "CIV",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 1,
             "drawn": 0,
-            "lost": 0,
-            "goals_for": 1,
-            "goals_against": 0,
-            "goal_difference": 1,
+            "lost": 1,
+            "goals_for": 2,
+            "goals_against": 2,
+            "goal_difference": 0,
             "points": 3,
             "form": ""
           },
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-20T21:45:56.785867+00:00"
+  "updated_at": "2026-06-20T22:58:02.881518+00:00"
 }
