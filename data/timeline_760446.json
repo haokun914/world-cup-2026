@@ -1,0 +1,626 @@
+{
+  "event_id": "760446",
+  "timeline": [
+    {
+      "id": "49567251",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49567682",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49567683",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49567690",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49567691",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49567815",
+      "type": "start delay",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49567813",
+      "type": "start delay",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49567820",
+      "type": "end delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49567826",
+      "type": "end delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49567892",
+      "type": "yellow_card",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "270829",
+        "name": "Jordy Alcívar"
+      }
+    },
+    {
+      "id": "49567898",
+      "type": "yellow_card",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "138664",
+        "name": "Leandro Bacuna"
+      }
+    },
+    {
+      "id": "49568112",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49568140",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "281316",
+        "name": "Kevin Rodríguez"
+      },
+      "player_in": {
+        "id": "281316",
+        "name": "Kevin Rodríguez"
+      },
+      "player_out": {
+        "id": "270829",
+        "name": "Jordy Alcívar"
+      }
+    },
+    {
+      "id": "49568150",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49568292",
+      "type": "yellow_card",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "216287",
+        "name": "Juninho Bacuna"
+      }
+    },
+    {
+      "id": "49568321",
+      "type": "start delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568323",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568333",
+      "type": "yellow_card",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "317285",
+        "name": "Livano Comenencia"
+      }
+    },
+    {
+      "id": "49568542",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568533",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49568545",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "318090",
+        "name": "Nilson Angulo"
+      },
+      "player_in": {
+        "id": "318090",
+        "name": "Nilson Angulo"
+      },
+      "player_out": {
+        "id": "214689",
+        "name": "Pervis Estupiñán"
+      }
+    },
+    {
+      "id": "49568547",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568546",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49568595",
+      "type": "start delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49568602",
+      "type": "start delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568596",
+      "type": "end delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49568603",
+      "type": "end delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568615",
+      "type": "yellow_card",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "246281",
+        "name": "Juriën Gaari"
+      }
+    },
+    {
+      "id": "49568618",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "188452",
+        "name": "Kenji Gorré"
+      },
+      "player_in": {
+        "id": "188452",
+        "name": "Kenji Gorré"
+      },
+      "player_out": {
+        "id": "216287",
+        "name": "Juninho Bacuna"
+      }
+    },
+    {
+      "id": "49568620",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "270807",
+        "name": "Roshon van Eijma"
+      },
+      "player_in": {
+        "id": "270807",
+        "name": "Roshon van Eijma"
+      },
+      "player_out": {
+        "id": "335203",
+        "name": "Deveron Fonville"
+      }
+    },
+    {
+      "id": "49568621",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "301441",
+        "name": "Jearl Margaritha"
+      },
+      "player_in": {
+        "id": "301441",
+        "name": "Jearl Margaritha"
+      },
+      "player_out": {
+        "id": "276218",
+        "name": "Tahith Chong"
+      }
+    },
+    {
+      "id": "49568726",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568728",
+      "type": "end delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568747",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49568749",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568751",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "256560",
+        "name": "Ángelo Preciado"
+      },
+      "player_in": {
+        "id": "256560",
+        "name": "Ángelo Preciado"
+      },
+      "player_out": {
+        "id": "262111",
+        "name": "Alan Franco"
+      }
+    },
+    {
+      "id": "49568755",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "178273",
+        "name": "Gervane Kastaneer"
+      },
+      "player_in": {
+        "id": "178273",
+        "name": "Gervane Kastaneer"
+      },
+      "player_out": {
+        "id": "167213",
+        "name": "Jürgen Locadia"
+      }
+    },
+    {
+      "id": "49568757",
+      "type": "end delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49568754",
+      "type": "end delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49568756",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "273295",
+        "name": "Godfried Roemeratoe"
+      },
+      "player_in": {
+        "id": "273295",
+        "name": "Godfried Roemeratoe"
+      },
+      "player_out": {
+        "id": "317285",
+        "name": "Livano Comenencia"
+      }
+    },
+    {
+      "id": "49568879",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "217079",
+        "name": "Jordy Caicedo"
+      },
+      "player_in": {
+        "id": "217079",
+        "name": "Jordy Caicedo"
+      },
+      "player_out": {
+        "id": "265926",
+        "name": "John Yeboah"
+      }
+    },
+    {
+      "id": "49568920",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "178273",
+        "name": "Gervane Kastaneer"
+      }
+    },
+    {
+      "id": "49568974",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
