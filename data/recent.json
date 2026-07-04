@@ -1,159 +1,6 @@
 {
-  "updated_at": "2026-07-03T20:23:54.468853+00:00",
+  "updated_at": "2026-07-04T00:18:33.425718+00:00",
   "events": [
-    {
-      "id": "760487",
-      "status": "closed",
-      "start_time": "2026-06-29T17:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "6262",
-        "name": "NRG Stadium",
-        "city": "Houston, Texas",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "205",
-            "name": "Brazil",
-            "short_name": "Brazil",
-            "abbreviation": "BRA"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "627",
-            "name": "Japan",
-            "short_name": "Japan",
-            "abbreviation": "JPN"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760489",
-      "status": "not_started",
-      "start_time": "2026-06-29T20:30Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "10660",
-        "name": "Gillette Stadium",
-        "city": "Foxborough, Massachusetts",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "481",
-            "name": "Germany",
-            "short_name": "Germany",
-            "abbreviation": "GER"
-          },
-          "qualifier": "home",
-          "score": 1
-        },
-        {
-          "team": {
-            "id": "210",
-            "name": "Paraguay",
-            "short_name": "Paraguay",
-            "abbreviation": "PAR"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 1,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760488",
-      "status": "not_started",
-      "start_time": "2026-06-30T01:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "6351",
-        "name": "Estadio BBVA",
-        "city": "Guadalupe",
-        "country": "Mexico"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "449",
-            "name": "Netherlands",
-            "short_name": "Netherlands",
-            "abbreviation": "NED"
-          },
-          "qualifier": "home",
-          "score": 1
-        },
-        {
-          "team": {
-            "id": "2869",
-            "name": "Morocco",
-            "short_name": "Morocco",
-            "abbreviation": "MAR"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 1,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760490",
       "status": "closed",
@@ -661,50 +508,7 @@
         "home": 1,
         "away": 1
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "EGY +150",
-        "spread": "",
-        "over_under": 1.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "+255",
-          "away": "+150",
-          "draw": "+175"
-        },
-        "spread_line": {
-          "home": {
-            "line": "+0.5",
-            "odds": "-180"
-          },
-          "away": {
-            "line": "-0.5",
-            "odds": "+140"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o1.5",
-            "odds": "-170"
-          },
-          "under": {
-            "line": "u1.5",
-            "odds": "+135"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+225",
-            "away": "+150",
-            "draw": "+200"
-          },
-          "spread": {
-            "home": "+0.5",
-            "away": "-0.5"
-          },
-          "total": "o1.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -738,7 +542,7 @@
             "abbreviation": "ARG"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 2
         },
         {
           "team": {
@@ -748,12 +552,12 @@
             "abbreviation": "CPV"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 1
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "odds": {
         "provider": "DraftKings",
@@ -763,7 +567,7 @@
         "favorite": null,
         "moneyline": {
           "home": "-700",
-          "away": "+1700",
+          "away": "+1800",
           "draw": "+700"
         },
         "spread_line": {
@@ -773,7 +577,7 @@
           },
           "away": {
             "line": "+2.5",
-            "odds": "-160"
+            "odds": "-155"
           }
         },
         "total": {
@@ -863,21 +667,21 @@
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "+125"
+            "odds": "+120"
           },
           "away": {
             "line": "+1.5",
-            "odds": "-160"
+            "odds": "-150"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+105"
+            "odds": "+100"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-130"
+            "odds": "-125"
           }
         },
         "open": {
@@ -945,33 +749,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "MAR -120",
+        "details": "MAR -115",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+350",
-          "away": "-120",
-          "draw": "+245"
+          "home": "+360",
+          "away": "-115",
+          "draw": "+235"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "+100"
+            "odds": "-105"
           },
           "away": {
             "line": "-0.5",
-            "odds": "-125"
+            "odds": "-120"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+125"
+            "odds": "+120"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-155"
+            "odds": "-150"
           }
         },
         "open": {
@@ -1039,13 +843,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "FRA -550",
+        "details": "FRA -525",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+1700",
-          "away": "-550",
+          "home": "+1600",
+          "away": "-525",
           "draw": "+550"
         },
         "spread_line": {
@@ -1061,11 +865,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-140"
+            "odds": "-150"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+115"
+            "odds": "+120"
           }
         },
         "open": {
@@ -1227,23 +1031,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ENG +140",
+        "details": "ENG +145",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+215",
-          "away": "+140",
-          "draw": "+220"
+          "home": "+205",
+          "away": "+145",
+          "draw": "+215"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-170"
+            "odds": "-175"
           },
           "away": {
             "line": "-0.5",
-            "odds": "+130"
+            "odds": "+135"
           }
         },
         "total": {
@@ -1321,13 +1125,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ESP -115",
+        "details": "ESP -110",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+300",
-          "away": "-115",
+          "home": "+295",
+          "away": "-110",
           "draw": "+265"
         },
         "spread_line": {
@@ -1337,7 +1141,7 @@
           },
           "away": {
             "line": "-0.5",
-            "odds": "-120"
+            "odds": "-115"
           }
         },
         "total": {
@@ -1347,7 +1151,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-110"
+            "odds": "-105"
           }
         },
         "open": {
@@ -1415,23 +1219,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "USA +165",
+        "details": "BEL +155",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+165",
-          "away": "+165",
+          "home": "+170",
+          "away": "+155",
           "draw": "+240"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-195"
+            "odds": "-185"
           },
           "away": {
             "line": "-0.5",
-            "odds": "+150"
+            "odds": "+145"
           }
         },
         "total": {
@@ -1457,6 +1261,108 @@
           "total": "o2.5"
         }
       },
+      "referees": []
+    },
+    {
+      "id": "760509",
+      "status": "not_started",
+      "start_time": "2026-07-07T16:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "7485",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta, Georgia",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "131538",
+            "name": "Round of 32 14 Winner",
+            "short_name": "RD32 W14",
+            "abbreviation": "RD32"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "2620",
+            "name": "Egypt",
+            "short_name": "Egypt",
+            "abbreviation": "EGY"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": null,
+      "referees": []
+    },
+    {
+      "id": "760508",
+      "status": "not_started",
+      "start_time": "2026-07-07T20:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "4370",
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "475",
+            "name": "Switzerland",
+            "short_name": "Switzerland",
+            "abbreviation": "SUI"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "131539",
+            "name": "Round of 32 15 Winner",
+            "short_name": "RD32 W15",
+            "abbreviation": "RD32"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": null,
       "referees": []
     }
   ]
