@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T18:37:39.863274+00:00",
+  "updated_at": "2026-07-07T22:44:23.444899+00:00",
   "events": [
     {
       "id": "760499",
@@ -561,33 +561,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "COL +130",
+        "details": "COL +140",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+245",
-          "away": "+130",
-          "draw": "+205"
+          "home": "+250",
+          "away": "+140",
+          "draw": "+185"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-160"
+            "odds": "-165"
           },
           "away": {
             "line": "-0.5",
-            "odds": "+125"
+            "odds": "+130"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+130"
+            "odds": "+135"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-160"
+            "odds": "-170"
           }
         },
         "open": {
@@ -655,23 +655,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "FRA -180",
+        "details": "FRA -170",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-180",
-          "away": "+550",
-          "draw": "+295"
+          "home": "-170",
+          "away": "+500",
+          "draw": "+285"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-185"
+            "odds": "-175"
           },
           "away": {
             "line": "+0.5",
-            "odds": "+145"
+            "odds": "+140"
           }
         },
         "total": {
@@ -681,7 +681,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-120"
+            "odds": "-115"
           }
         },
         "open": {
@@ -765,7 +765,7 @@
           },
           "away": {
             "line": "+0.5",
-            "odds": "+135"
+            "odds": "+130"
           }
         },
         "total": {
