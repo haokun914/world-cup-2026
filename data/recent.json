@@ -1,159 +1,6 @@
 {
-  "updated_at": "2026-07-06T23:39:57.797643+00:00",
+  "updated_at": "2026-07-07T11:22:47.942031+00:00",
   "events": [
-    {
-      "id": "760497",
-      "status": "closed",
-      "start_time": "2026-07-02T19:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "9115",
-        "name": "SoFi Stadium",
-        "city": "Inglewood, California",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "164",
-            "name": "Spain",
-            "short_name": "Spain",
-            "abbreviation": "ESP"
-          },
-          "qualifier": "home",
-          "score": 3
-        },
-        {
-          "team": {
-            "id": "474",
-            "name": "Austria",
-            "short_name": "Austria",
-            "abbreviation": "AUT"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 3,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760496",
-      "status": "closed",
-      "start_time": "2026-07-02T23:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "10143",
-        "name": "BMO Field",
-        "city": "Toronto",
-        "country": "Canada"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "482",
-            "name": "Portugal",
-            "short_name": "Portugal",
-            "abbreviation": "POR"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "477",
-            "name": "Croatia",
-            "short_name": "Croatia",
-            "abbreviation": "CRO"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760498",
-      "status": "closed",
-      "start_time": "2026-07-03T03:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "4370",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "475",
-            "name": "Switzerland",
-            "short_name": "Switzerland",
-            "abbreviation": "SUI"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "624",
-            "name": "Algeria",
-            "short_name": "Algeria",
-            "abbreviation": "ALG"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760499",
       "status": "not_started",
@@ -564,7 +411,7 @@
     },
     {
       "id": "760507",
-      "status": "not_started",
+      "status": "closed",
       "start_time": "2026-07-07T00:00Z",
       "matchday": null,
       "round": "",
@@ -593,7 +440,7 @@
             "abbreviation": "USA"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -603,57 +450,14 @@
             "abbreviation": "BEL"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 4
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 4
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "USA +155",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "+155",
-          "away": "+185",
-          "draw": "+225"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "+145"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "-185"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-125"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "+105"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+160",
-            "away": "+175",
-            "draw": "+235"
-          },
-          "spread": {
-            "home": "+0.5",
-            "away": "-0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -706,33 +510,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ARG -270",
+        "details": "ARG -310",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-270",
-          "away": "+850",
-          "draw": "+370"
+          "home": "-310",
+          "away": "+900",
+          "draw": "+400"
         },
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "+110"
+            "odds": "+100"
           },
           "away": {
             "line": "+1.5",
-            "odds": "-140"
+            "odds": "-125"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+100"
+            "odds": "-105"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-125"
+            "odds": "-115"
           }
         },
         "open": {
@@ -800,13 +604,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "COL +130",
+        "details": "COL +125",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+240",
-          "away": "+130",
+          "home": "+245",
+          "away": "+125",
           "draw": "+210"
         },
         "spread_line": {
@@ -822,11 +626,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+135"
+            "odds": "+125"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-165"
+            "odds": "-160"
           }
         },
         "open": {
@@ -916,7 +720,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+100"
+            "odds": "-105"
           },
           "under": {
             "line": "u2.5",
@@ -928,6 +732,100 @@
             "home": "-175",
             "away": "+500",
             "draw": "+285"
+          },
+          "spread": {
+            "home": "-0.5",
+            "away": "+0.5"
+          },
+          "total": "o2.5"
+        }
+      },
+      "referees": []
+    },
+    {
+      "id": "760511",
+      "status": "not_started",
+      "start_time": "2026-07-10T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "9115",
+        "name": "SoFi Stadium",
+        "city": "Inglewood, California",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "164",
+            "name": "Spain",
+            "short_name": "Spain",
+            "abbreviation": "ESP"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "459",
+            "name": "Belgium",
+            "short_name": "Belgium",
+            "abbreviation": "BEL"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "ESP -160",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "-160",
+          "away": "+450",
+          "draw": "+290"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-0.5",
+            "odds": "-170"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "+135"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "-125"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "+100"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "-160",
+            "away": "+450",
+            "draw": "+290"
           },
           "spread": {
             "home": "-0.5",
