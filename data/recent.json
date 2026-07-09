@@ -1,108 +1,6 @@
 {
-  "updated_at": "2026-07-08T22:19:05.151687+00:00",
+  "updated_at": "2026-07-09T10:43:48.687562+00:00",
   "events": [
-    {
-      "id": "760502",
-      "status": "closed",
-      "start_time": "2026-07-04T17:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "6262",
-        "name": "NRG Stadium",
-        "city": "Houston, Texas",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "206",
-            "name": "Canada",
-            "short_name": "Canada",
-            "abbreviation": "CAN"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "2869",
-            "name": "Morocco",
-            "short_name": "Morocco",
-            "abbreviation": "MAR"
-          },
-          "qualifier": "away",
-          "score": 3
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 3
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760503",
-      "status": "closed",
-      "start_time": "2026-07-04T21:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "1421",
-        "name": "Lincoln Financial Field",
-        "city": "Philadelphia, Pennsylvania",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "210",
-            "name": "Paraguay",
-            "short_name": "Paraguay",
-            "abbreviation": "PAR"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "478",
-            "name": "France",
-            "short_name": "France",
-            "abbreviation": "FRA"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760504",
       "status": "closed",
@@ -459,14 +357,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "FRA -180",
+        "details": "FRA -175",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-180",
+          "home": "-175",
           "away": "+550",
-          "draw": "+290"
+          "draw": "+280"
         },
         "spread_line": {
           "home": {
@@ -475,17 +373,17 @@
           },
           "away": {
             "line": "+0.5",
-            "odds": "+145"
+            "odds": "+140"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-105"
+            "odds": "+100"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-120"
+            "odds": "-125"
           }
         },
         "open": {
@@ -575,11 +473,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-125"
+            "odds": "-130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+100"
+            "odds": "+105"
           }
         },
         "open": {
@@ -763,11 +661,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+125"
+            "odds": "+120"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-155"
+            "odds": "-150"
           }
         },
         "open": {
