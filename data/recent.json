@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T16:56:50.885065+00:00",
+  "updated_at": "2026-07-15T20:39:44.042650+00:00",
   "events": [
     {
       "id": "760512",
@@ -156,7 +156,7 @@
     },
     {
       "id": "760515",
-      "status": "not_started",
+      "status": "2nd_half",
       "start_time": "2026-07-15T19:00Z",
       "matchday": null,
       "round": "",
@@ -185,7 +185,7 @@
             "abbreviation": "ENG"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -199,28 +199,28 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ENG +165",
+        "details": "ENG +170",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+165",
+          "home": "+170",
           "away": "+205",
-          "draw": "+185"
+          "draw": "+180"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+155"
+            "odds": "+165"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-200"
+            "odds": "-210"
           }
         },
         "total": {
