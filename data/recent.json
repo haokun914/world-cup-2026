@@ -1,57 +1,6 @@
 {
-  "updated_at": "2026-07-18T21:11:31.512528+00:00",
+  "updated_at": "2026-07-19T06:50:24.221553+00:00",
   "events": [
-    {
-      "id": "760514",
-      "status": "closed",
-      "start_time": "2026-07-14T19:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "3871",
-        "name": "AT&T Stadium",
-        "city": "Arlington, Texas",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "478",
-            "name": "France",
-            "short_name": "France",
-            "abbreviation": "FRA"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "164",
-            "name": "Spain",
-            "short_name": "Spain",
-            "abbreviation": "ESP"
-          },
-          "qualifier": "away",
-          "score": 2
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 2
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760515",
       "status": "closed",
@@ -105,7 +54,7 @@
     },
     {
       "id": "760516",
-      "status": "1st_half",
+      "status": "closed",
       "start_time": "2026-07-18T21:00Z",
       "matchday": null,
       "round": "",
@@ -134,7 +83,7 @@
             "abbreviation": "FRA"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 4
         },
         {
           "team": {
@@ -144,57 +93,14 @@
             "abbreviation": "ENG"
           },
           "qualifier": "away",
-          "score": 1
+          "score": 6
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 1
+        "home": 4,
+        "away": 6
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "FRA -145",
-        "spread": "",
-        "over_under": 3.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-145",
-          "away": "+350",
-          "draw": "+310"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "-145"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "+115"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o3.5",
-            "odds": "+115"
-          },
-          "under": {
-            "line": "u3.5",
-            "odds": "-140"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+110",
-            "away": "+265",
-            "draw": "+235"
-          },
-          "spread": {
-            "home": "-0.5",
-            "away": "+0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -247,33 +153,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ESP +125",
+        "details": "ESP +130",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+125",
-          "away": "+255",
-          "draw": "+200"
+          "home": "+130",
+          "away": "+245",
+          "draw": "+205"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+115"
+            "odds": "+120"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-145"
+            "odds": "-155"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+125"
+            "odds": "+135"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-155"
+            "odds": "-165"
           }
         },
         "open": {
